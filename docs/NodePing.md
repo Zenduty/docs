@@ -14,17 +14,17 @@ NodePing provides uptime monitoring for websites and servers. To integrate NodeP
 
 5. Log in to NodePing, and go to "Checks and Contacts" -> "Contacts". Click the "Add New Contact" button.
 
-![](/img/Integrations/Nodeping/1.png)
+![](/docs/img/Integrations/Nodeping/1.png)
 
 6. Select "Webhook" from the notifications dropdwn, and choose the "POST" request from the "Requests" dropdown menu. 
 
 7. Enter the webhook url you copied earlier in the "URL" field. 
 
-![](/img/Integrations/Nodeping/2.png)
+![](/docs/img/Integrations/Nodeping/2.png)
 
 8. Click the "Headers" tab. In the "New Key" field, enter "Content Type", and in the "Value" field, enter "application/json" as shown below.
 
-![](/img/Integrations/Nodeping/3.png)
+![](/docs/img/Integrations/Nodeping/3.png)
 
 9. Finally, navigate to the "Body" tab and enter the following payload:
 
@@ -39,7 +39,7 @@ NodePing provides uptime monitoring for websites and servers. To integrate NodeP
 
 The screen will look something like this: 
 
-![](/img/Integrations/Nodeping/4.png)
+![](/docs/img/Integrations/Nodeping/4.png)
 
 Your webhook for Zenduty is now set up. 
 
@@ -47,7 +47,7 @@ Your webhook for Zenduty is now set up.
 
 11. Under the "Select a new contact to add" dropdown menu, pick the newly added webhook. 
 
-![](/img/Integrations/Nodeping/5.png)
+![](/docs/img/Integrations/Nodeping/5.png)
 
 12. After filling out the remainder of the form and saving it, the new check is created. 
 Zenduty will notify you whenever an alert is generated.

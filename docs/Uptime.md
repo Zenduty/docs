@@ -14,7 +14,7 @@ Uptime provides uptime monitoring for websites and servers. To integrate Uptime 
 
 5. Log in to Uptime, and click on the "Drawer" navigation icon located at the top right corner of the screen.
 
-![](/img/Integrations/Uptime/1.png)
+![](/docs/img/Integrations/Uptime/1.png)
 
 6. Go to "Notifications" and select "Integrations".
 
@@ -22,7 +22,7 @@ Uptime provides uptime monitoring for websites and servers. To integrate Uptime 
 
 8. Fill in the name as "Zenduty", or any other easy to remember name, and paste the webhooks url you copied earlier in the "URL" field. 
 
-![](/img/Integrations/Uptime/2.png)
+![](/docs/img/Integrations/Uptime/2.png)
 
 9. Save to finish creating the webhook.
 
@@ -30,7 +30,7 @@ Uptime provides uptime monitoring for websites and servers. To integrate Uptime 
 
 11. Click the "Add New" button, and fill out the form as shown below:
 
-![](/img/Integrations/Uptime/3.png)
+![](/docs/img/Integrations/Uptime/3.png)
 
 12. Click save to allow Zenduty to notify you of the alerts.
 

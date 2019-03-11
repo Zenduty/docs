@@ -73,11 +73,11 @@ Prometheus is an open-source monitoring solution that resides locally on your ma
 
 10. Once Prometheus is running, you will be able to see the alerts rules you configured.
 
-![](/img/Integrations/Prometheus/alerts.png)
+![](/docs/img/Integrations/Prometheus/alerts.png)
 
 When an alert is required, Zenduty will automatically create an incident. 
 
-![](/img/Integrations/Prometheus/incident.png)
+![](/docs/img/Integrations/Prometheus/incident.png)
 
 
 11. Prometheus is now integrated.
