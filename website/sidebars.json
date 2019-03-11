@@ -1,0 +1,85 @@
+{
+  "example-sidebar": {
+  	"Introduction": ["Introduction"],
+  	"Teams": ["Teams"],
+    "Users": ["Users"],
+
+    "Services": ["Services"],
+    "Integrations":["Integrations",
+      {
+        "type": "subcategory",
+        "ids": ["Integrations"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Datadog"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Dynatrace"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Grafana"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Honeybadger"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["NodePing"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Pingdom"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Prometheus"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Rollbar"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Runscope"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["SignalFX"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["StatusPage"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Sumologic"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Uptime"]
+      },
+
+      {
+        "type": "subcategory",
+        "ids": ["Zendesk"]
+      }
+    ],                              
+  
+  	"Escalation Policies": [
+  		"Escalation Policies",
+  		{
+  			"type": "subcategory",
+  			"ids": ["EscalationPolicies"]
+  		},
+  		{
+  			"type": "subcategory",
+  			"ids": ["Schedules"]
+  		}
+  	],
+    "Incidents": ["Incidents"]  
+  }
+}
