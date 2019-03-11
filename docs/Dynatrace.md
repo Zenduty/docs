@@ -14,7 +14,7 @@ Dynatrace provides application performance management, artificial intelligence f
 
 5. Login to Dynatrace. Go to Settings -> Integration -> Problem notifications. Click on the "Set up notifications" tab at the top of the page.
 
-![](/img/Integrations/Dynatrace/1.png)
+![](/docs/img/Integrations/Dynatrace/1.png)
 
 6. Next, paste this payload into the ''custom payload'' field:
 
@@ -30,6 +30,6 @@ Dynatrace provides application performance management, artificial intelligence f
 
 7. Paste the url you copied earlier.
 
-![](/img/Integrations/Dynatrace/2.png)
+![](/docs/img/Integrations/Dynatrace/2.png)
 
 8. Click "Save" and Dynatrace is integrated.

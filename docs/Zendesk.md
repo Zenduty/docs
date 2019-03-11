@@ -14,10 +14,10 @@ To integrate Zendesk with Zenduty, complete the following steps:
 
 5. Log in to Zendesk. Go to Settings-> Extensions. 
 
-![](/img/Integrations/Zendesk/Webhook1.png)
+![](/docs/img/Integrations/Zendesk/Webhook1.png)
 
 6. Click on "Add Target" and select HTTP target. Fill in the form as shown below. In the url field, paste the webhooks url you copied earlier. Make sure to change the method to POST.
 
-![](/img/Integrations/Zendesk/Webhook2.png)
+![](/docs/img/Integrations/Zendesk/Webhook2.png)
 
 7. Your Zendesk account is integrated. Zenduty will now create an incident for every new ticket created on Zendesk.

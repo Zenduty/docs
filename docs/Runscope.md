@@ -14,18 +14,18 @@ Runscope provides solutions for API performance testing, monitoring and debuggin
 
 5. After logging in, go to Create Test -> New Test.
 
-![](/img/Integrations/Runscope/1.png)
+![](/docs/img/Integrations/Runscope/1.png)
 
 6. Click on the Notifications button (the bell shaped icon).
 
-![](/img/Integrations/Runscope/2.png)
+![](/docs/img/Integrations/Runscope/2.png)
 
 7. Then click on the Webhooks tab and enter the URL you copied earlier. 
 
-![](/img/Integrations/Runscope/3.png)
+![](/docs/img/Integrations/Runscope/3.png)
 
 8. Finally, enter the URL endpoint that needs to be monitored, save and run the test.
 
-![](/img/Integrations/Runscope/4.png)
+![](/docs/img/Integrations/Runscope/4.png)
 
 9. Runscope is now integrated.

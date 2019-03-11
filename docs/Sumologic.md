@@ -16,16 +16,16 @@ Sumo Logic is industry's leading, secure, cloud-based service for logs & metrics
 
 6. Click the '+' button at the top right of the screen to add a webhook.
 
-![](/img/Integrations/Sumologic/1.png)
+![](/docs/img/Integrations/Sumologic/1.png)
 
 7. Add a Host Metrics source in Sumo Logic. It depends upon the user, what the host metric should be. Here's a screenshot of a sample metric to monitor CPU activity.
 
-![](/img/Integrations/Sumologic/2.png)
+![](/docs/img/Integrations/Sumologic/2.png)
 
 8. After this is setup, goto Manage Data -> Alerts and click on the "Add Monitor" button at the top right of the screen.
 
 9. The Metric Query and Rules depend on the Host Metrics source. 
 
-![](/img/Integrations/Sumologic/3.png)
+![](/docs/img/Integrations/Sumologic/3.png)
 
 10. And that's it! The rules should trigger alerts which will then be visible on the Zenduty incidents page.
