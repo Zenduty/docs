@@ -58,16 +58,16 @@
 <li><p>Go to &quot;Configure&quot; under your integrations and copy the webhooks URL generated.</p></li>
 <li><p>Log in to NodePing, and go to &quot;Checks and Contacts&quot; -&gt; &quot;Contacts&quot;. Click the &quot;Add New Contact&quot; button.</p></li>
 </ol>
-<p><img src="/docs/img/Integrations/Nodeping/1.png" alt=""></p>
+<p><img src="/img/Integrations/Nodeping/1.png" alt=""></p>
 <ol start="6">
 <li><p>Select &quot;Webhook&quot; from the notifications dropdwn, and choose the &quot;POST&quot; request from the &quot;Requests&quot; dropdown menu.</p></li>
 <li><p>Enter the webhook url you copied earlier in the &quot;URL&quot; field.</p></li>
 </ol>
-<p><img src="/docs/img/Integrations/Nodeping/2.png" alt=""></p>
+<p><img src="/img/Integrations/Nodeping/2.png" alt=""></p>
 <ol start="8">
 <li>Click the &quot;Headers&quot; tab. In the &quot;New Key&quot; field, enter &quot;Content Type&quot;, and in the &quot;Value&quot; field, enter &quot;application/json&quot; as shown below.</li>
 </ol>
-<p><img src="/docs/img/Integrations/Nodeping/3.png" alt=""></p>
+<p><img src="/img/Integrations/Nodeping/3.png" alt=""></p>
 <ol start="9">
 <li>Finally, navigate to the &quot;Body&quot; tab and enter the following payload:</li>
 </ol>
@@ -79,13 +79,13 @@
 }
 </code></pre>
 <p>The screen will look something like this:</p>
-<p><img src="/docs/img/Integrations/Nodeping/4.png" alt=""></p>
+<p><img src="/img/Integrations/Nodeping/4.png" alt=""></p>
 <p>Your webhook for Zenduty is now set up.</p>
 <ol start="10">
 <li><p>In order to use the webhook to monitor an endpoint, go to &quot;Checks and Contacts&quot; -&gt; &quot;Checks&quot;. Click on the &quot;Add New Check&quot; button.</p></li>
 <li><p>Under the &quot;Select a new contact to add&quot; dropdown menu, pick the newly added webhook.</p></li>
 </ol>
-<p><img src="/docs/img/Integrations/Nodeping/5.png" alt=""></p>
+<p><img src="/img/Integrations/Nodeping/5.png" alt=""></p>
 <ol start="12">
 <li>After filling out the remainder of the form and saving it, the new check is created.
 Zenduty will notify you whenever an alert is generated.</li>
