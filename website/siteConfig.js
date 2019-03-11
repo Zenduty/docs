@@ -45,13 +45,13 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'docs/img/zenduty.svg',
-  footerIcon: 'docs/img/zenduty.svg',
-  favicon: 'docs/img/favicon.png',
+  headerIcon: 'img/zenduty.svg',
+  footerIcon: 'img/zenduty.svg',
+  favicon: 'img/favicon.png',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#1890ff',
+    primaryColor: '#001529',
     secondaryColor: '#ffffff',
   },
 
