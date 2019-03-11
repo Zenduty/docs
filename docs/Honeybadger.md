@@ -14,20 +14,20 @@ Honeybadger allows you to query, visualize, alert on and understand your metrics
 
 5. Login to Honeybadger. Click on "Add Project", and give it a name and select a language.
 
-![](/docs/img/Integrations/Honeybadger/add.png)
+![](/img/Integrations/Honeybadger/add.png)
 
-![](/docs/img/Integrations/Honeybadger/newproject.png)
+![](/img/Integrations/Honeybadger/newproject.png)
 
 6. Go to Project Settings. From the left hand menu, select "Alerts and Integrations". Paste the webhook you copied earlier. 
 
-![](/docs/img/Integrations/Honeybadger/webhook1.png)
+![](/img/Integrations/Honeybadger/webhook1.png)
 
-![](/docs/img/Integrations/Honeybadger/webhook2.png)
+![](/img/Integrations/Honeybadger/webhook2.png)
 
 7. Add monitoring metrics like errors and uptime. 
 
-![](/docs/img/Integrations/Honeybadger/errors.png)
+![](/img/Integrations/Honeybadger/errors.png)
 
-![](/docs/img/Integrations/Honeybadger/uptime.png)
+![](/img/Integrations/Honeybadger/uptime.png)
 
 8. Your Honeybadger integration is now set up. Zenduty will alert you when something goes wrong.

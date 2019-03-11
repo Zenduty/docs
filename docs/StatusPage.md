@@ -14,9 +14,9 @@ StatusPage.io is the best way for web infrastructure, developer API, and SaaS co
 
 5. Login. Go to Notifications -> Subscribers. Click on "Add Subscriber".
 
-![](/docs/img/Integrations/Statuspage/1.png)
+![](/img/Integrations/Statuspage/1.png)
 
-![](/docs/img/Integrations/Statuspage/2.png)
+![](/img/Integrations/Statuspage/2.png)
 
 6. Under "Subscriber Type" select "Webhook", enter the Zenduty URL and a valid email address.
 
@@ -24,18 +24,18 @@ We can monitor Incidents and Components using webhook alerts.
 
 7. For Incidents, goto the Incidents tab and click on "Create Incidents".
 
-![](/docs/img/Integrations/Statuspage/3.png)
+![](/img/Integrations/Statuspage/3.png)
 
-![](/docs/img/Integrations/Statuspage/4.png)
+![](/img/Integrations/Statuspage/4.png)
 
 Alerts will be triggered when the incident status changes.
 
 8. Finally, for Components, click on the "Components" tab, and then "Add Component".
 
-![](/docs/img/Integrations/Statuspage/5.png)
+![](/img/Integrations/Statuspage/5.png)
 
 Once the component is created and saved, the status of the component can be updated. Alerts will be triggered when there are status updates.
 
-![](/docs/img/Integrations/Statuspage/6.png)
+![](/img/Integrations/Statuspage/6.png)
 
 9. StatusPage is now integrated.

@@ -14,22 +14,22 @@ Grafana allows you to query, visualize, alert on and understand your metrics no 
 
 5. Log in to Grafana. Go to notification channels. Add new channel.Select type as Webhook. Enter the webhook url copied from the previous step.
 
-![](/docs/img/Integrations/Grafana/Webhook.png)
+![](/img/Integrations/Grafana/Webhook.png)
 
 6. Next, from the left side menu, select Configuration->Data Sources. Select the data source you want to configure.
 
 7. As an example, we will select PostgreSQL. Fill in the form as shown below:
 
-![](/docs/img/Integrations/Grafana/PostgreSql.png)
+![](/img/Integrations/Grafana/PostgreSql.png)
 
 8. Finally, go to Dashboards->Home. Click on "New Dashboard Copy", and edit panel title. 
 
-![](/docs/img/Integrations/Grafana/EditPanel.png)
+![](/img/Integrations/Grafana/EditPanel.png)
 
 9. Fill in the graph details as per your use case. An example is given below. 
 
-![](/docs/img/Integrations/Grafana/EditGraph.png)
+![](/img/Integrations/Grafana/EditGraph.png)
 
 10. Your Grafana is now integrated. Zenduty will automatically create incidents from your Grafana rules. 
 
-![](/docs/img/Integrations/Grafana/Test.png)
+![](/img/Integrations/Grafana/Test.png)

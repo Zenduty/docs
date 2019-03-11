@@ -29,9 +29,9 @@ Paste this in the custom payload box:
 ```
 The page should look as below:
 
-![](/docs/img/Integrations/Datadog/Webhooks2.png)
+![](/img/Integrations/Datadog/Webhooks2.png)
 
-![](/docs/img/Integrations/Datadog/Webhooks3.png)
+![](/img/Integrations/Datadog/Webhooks3.png)
 
 7. Click on "Update Configuration".
 
@@ -39,12 +39,12 @@ The page should look as below:
 
 9. Click on the "Edit" button next to the newly created monitor. 
 
-![](/docs/img/Integrations/Datadog/Monitors1.png)
+![](/img/Integrations/Datadog/Monitors1.png)
 
 10. Set all the metrics. In the "Notify team" tab, make sure to select the webhook you have just created. 
 
-![](/docs/img/Integrations/Datadog/Monitors2.png)
+![](/img/Integrations/Datadog/Monitors2.png)
 
-![](/docs/img/Integrations/Datadog/Monitors3.png)
+![](/img/Integrations/Datadog/Monitors3.png)
 
 11. Datadog is now integrated and Zenduty will alert you when something is not right.

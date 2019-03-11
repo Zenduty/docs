@@ -14,19 +14,19 @@ Rollbar provides real-time error alerting & debugging tools for developers. To i
 
 5. Log in to Rollbar, and go to Projects-> Create New Project
 
-![](/docs/img/Integrations/Rollbar/1.png)
+![](/img/Integrations/Rollbar/1.png)
 
 6. After creating a project, choose a primary SDK. We are using Python as an example. 
 
-![](/docs/img/Integrations/Rollbar/2.png)
+![](/img/Integrations/Rollbar/2.png)
 
 7. Click on the "Settings" tab located at the top of the page. Choose the "Notifications" options from the left-hand side menu.
 
-![](/docs/img/Integrations/Rollbar/3.png)
+![](/img/Integrations/Rollbar/3.png)
 
 8. Click on the Webhook option, and then enter the URL you copied earlier.
 
-![](/docs/img/Integrations/Rollbar/4.png)
+![](/img/Integrations/Rollbar/4.png)
 
 9. Rollbar is now created amd all alerts will show up on Zenduty.
 
