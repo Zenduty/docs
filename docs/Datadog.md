@@ -47,4 +47,4 @@ The page should look as below:
 
 ![](/img/Integrations/Datadog/Monitors3.png)
 
-11. Datadog is now integrated and Zenduty will alert you when something is not right.
+11. Datadog is now integrated and Zenduty will alert you when Datadof alerts are created and resolved.
