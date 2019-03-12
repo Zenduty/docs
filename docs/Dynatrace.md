@@ -12,11 +12,11 @@ Dynatrace provides application performance management, artificial intelligence f
 
 4. Go to "Configure" under your integrations and copy the webhooks URL generated. 
 
-5. Login to Dynatrace. Go to Settings -> Integration -> Problem notifications. Click on the "Set up notifications" tab at the top of the page.
+5. Login to Dynatrace. Go to Settings -> Integration -> Problem notifications. Click on the "Set Up Notifications" tab at the top of the page.
 
 ![](/img/Integrations/Dynatrace/1.png)
 
-6. Next, paste this payload into the ''custom payload'' field:
+6. Next, paste this payload into the "Custom Payload" field:
 
 	```
 	{

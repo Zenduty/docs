@@ -12,11 +12,11 @@ SignalFx is a real-time cloud monitoring platform for infrastructure, microservi
 
 4. Go to "Configure" under your integrations and copy the webhooks URL generated
 
-5. Log in to your SignalFX account. Click on the Integrations tab and scroll down to the "Notification Services" section.
+5. Log in to your SignalFX account. Click on the "Integrations" tab and scroll down to the "Notification Services" section.
 
 ![](/img/Integrations/SignalFX/1.png)
 
-6. Click on Webhook and then click on the "New Integration" button. Paste the webhooks url you copied earlier
+6. Click on "Webhook" and then click on the "New Integration" button. Paste the webhooks url you copied earlier
 
 ![](/img/Integrations/SignalFX/2.png)
 
@@ -27,17 +27,17 @@ As an example, SignalFX SmartAgent is integrated here.
 
 ![](/img/Integrations/SignalFX/3.png)
 
-8. Once a service has been integrated, navigate to the Alerts page by clicking the tab at the top of the page. Then, click on the "New Detector" button to add a new alert for the integrated service.
+8. Once a service has been integrated, navigate to the "Alerts" page by clicking the tab at the top of the page. Then, click on the "New Detector" button to add a new alert for the integrated service.
 
 ![](/img/Integrations/SignalFX/4.png)
 
 9. Now, we will setup the conditions for the alerts.
 
-	* Add the signal source. This is the service you just integrated.
+	* Add the Signal Source. This is the service you just integrated.
 
 	![](/img/Integrations/SignalFX/5.png)
 
-	* Set the alert conditions, settings and message as per your need. 
+	* Set the Alert Conditions, Settings and Message as per your need. 
 
 	* Click on the "Alert Recipients" tab and add the newly created webhook.
 

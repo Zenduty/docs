@@ -18,13 +18,13 @@ Honeybadger allows you to query, visualize, alert on and understand your metrics
 
 ![](/img/Integrations/Honeybadger/newproject.png)
 
-6. Go to Project Settings. From the left hand menu, select "Alerts and Integrations". Paste the webhook you copied earlier. 
+6. Go to "Project Settings". From the left hand menu, select "Alerts and Integrations". Paste the webhook you copied earlier. 
 
 ![](/img/Integrations/Honeybadger/webhook1.png)
 
 ![](/img/Integrations/Honeybadger/webhook2.png)
 
-7. Add monitoring metrics like errors and uptime. 
+7. Add monitoring metrics like Errors and Uptime. 
 
 ![](/img/Integrations/Honeybadger/errors.png)
 

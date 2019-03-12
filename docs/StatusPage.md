@@ -22,19 +22,19 @@ StatusPage.io is the best way for web infrastructure, developer API, and SaaS co
 
 We can monitor Incidents and Components using webhook alerts.
 
-7. For Incidents, goto the Incidents tab and click on "Create Incidents".
+7. For Incidents, go to the Incidents tab and click on "Create Incidents".
 
 ![](/img/Integrations/Statuspage/3.png)
 
 ![](/img/Integrations/Statuspage/4.png)
 
-Alerts will be triggered when the incident status changes.
+Alerts will be triggered when the Incident Status changes.
 
 8. Finally, for Components, click on the "Components" tab, and then "Add Component".
 
 ![](/img/Integrations/Statuspage/5.png)
 
-Once the component is created and saved, the status of the component can be updated. Alerts will be triggered when there are status updates.
+Once the component is created and saved, the status of the component can be updated. Alerts will be triggered when there are Status Updates.
 
 ![](/img/Integrations/Statuspage/6.png)
 
