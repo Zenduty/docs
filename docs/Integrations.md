@@ -7,6 +7,7 @@ Integrations on Zenduty:
 * [Dynatrace](Dynatrace.md)
 * [Grafana](Grafana.md)
 * [Honeybadger](Honeybadger.md)
+* [Loggly](Loggly.md)
 * [NodePing](NodePing.md)
 * [Pingdom](Pingdom.md)
 * [Prometheus](Prometheus.md)

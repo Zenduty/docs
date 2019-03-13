@@ -10,7 +10,7 @@ Datadog is a monitoring service for cloud-scale applications, providing monitori
 4. Go to "Configure" under your integrations and copy the webhooks URL generated. 
 5. Login to Datadog. From the left hand menu, go to Integrations-> Integrations. Search for "Webhooks" from this page, and click the correspondig button.
 
-![](/docs/img/Integrations/Datadog/Webhooks1.png)
+![](/img/Integrations/Datadog/Webhooks1.png)
 
 6. Scroll down, fill in the name, url (copied above) and custom payload. **Check the "Use Custom Payload" box**.
 Paste this in the custom payload box:
