@@ -23,6 +23,7 @@ const users = [
 const siteConfig = {
   title: 'General Documentation', // Title for your website.
   tagline: 'Be on Zenduty',
+  cname: 'docs.zenduty.com',
   url: 'http://docs.zenduty.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
