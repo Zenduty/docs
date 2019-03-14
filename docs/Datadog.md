@@ -10,22 +10,22 @@ Datadog is a monitoring service for cloud-scale applications, providing monitori
 4. Go to "Configure" under your integrations and copy the webhooks URL generated. 
 5. Login to Datadog. From the left hand menu, go to integrations-> integrations. Search for webhooks from this page, and click.
 
-![](/docs/img/Integrations/Datadog/Webhooks1.png)
+![](/img/Integrations/Datadog/Webhooks1.png)
 
 6. Scroll down, fill in the name, url (copied above) and custom payload. **Check the "use custom payload" box**.
 Paste this in the custom payload box:
 ```
-{
-"alert_id": "$ALERT_ID",
-"hostname":"$HOSTNAME",
-"date_posix":"$DATE_POSIX",
-"aggreg_key":"$AGGREG_KEY",
-"title": "$EVENT_TITLE", 
-"alert_status":"$ALERT_STATUS",
-"alert_transition":"$ALERT_TRANSITION",
-"link":"$LINK",
-"event_msg":"$EVENT_MSG"
-}
+		{
+		"alert_id": "$ALERT_ID",
+		"hostname":"$HOSTNAME",
+		"date_posix":"$DATE_POSIX",
+		"aggreg_key":"$AGGREG_KEY",
+		"title": "$EVENT_TITLE", 
+		"alert_status":"$ALERT_STATUS",
+		"alert_transition":"$ALERT_TRANSITION",
+		"link":"$LINK",
+		"event_msg":"$EVENT_MSG"
+		}
 ```
 The page should look as below:
 
