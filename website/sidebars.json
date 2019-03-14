@@ -52,6 +52,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["Sentry"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["SignalFX"]
       },
       {
