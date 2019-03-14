@@ -14,7 +14,7 @@ Datadog is a monitoring service for cloud-scale applications, providing monitori
 
 6. Scroll down, fill in the name, url (copied above) and custom payload. **Check the "Use Custom Payload" box**.
 Paste this in the custom payload box:
-
+```
 		{
 		"alert_id": "$ALERT_ID",
 		"hostname":"$HOSTNAME",
@@ -28,9 +28,7 @@ Paste this in the custom payload box:
 		}
 
 ```
-=======
-		```
->>>>>>> 8eeb49e4fab606c032c8a8f2a1474a7aa8ee3797
+
 The page should look as below:
 
 ![](/img/Integrations/Datadog/Webhooks2.png)
