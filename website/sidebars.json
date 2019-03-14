@@ -5,6 +5,18 @@
     "Users": ["Users"],
 
     "Services": ["Services"],
+    "Escalation Policies": [
+      "Escalation Policies",
+      {
+        "type": "subcategory",
+        "ids": ["EscalationPolicies"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Schedules"]
+      }
+    ],
+    "Incidents": ["Incidents"],
     "Integrations":["Integrations",
       {
         "type": "subcategory",
@@ -75,19 +87,6 @@
         "type": "subcategory",
         "ids": ["Zendesk"]
       }
-    ],                              
-  
-  	"Escalation Policies": [
-  		"Escalation Policies",
-  		{
-  			"type": "subcategory",
-  			"ids": ["EscalationPolicies"]
-  		},
-  		{
-  			"type": "subcategory",
-  			"ids": ["Schedules"]
-  		}
-  	],
-    "Incidents": ["Incidents"]  
+    ]  
   }
 }
