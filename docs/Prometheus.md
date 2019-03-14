@@ -12,60 +12,62 @@ Prometheus is an open-source monitoring solution that resides locally on your ma
 
 4. Go to "Configure" under your integrations and copy the webhooks URL generated. 
 
-5. Ensure that both prometheus and prometheus alertmanager are downloaded and accessible locally on your system. To download them, visit [here](https://prometheus.io/download/) 
+5. Ensure that both Prometheus and Prometheus Alertmanager are downloaded and accessible locally on your system. To download them, visit [here](https://prometheus.io/download/) 
  
-6. Go to alertmanager folder, open alertmanager.yml, add the webhook url (copied in the earlier steps) under webhook configs. Your alertmanager.yml file should now look like this:
-	```
-	global:
-	  resolve_timeout: 5m
-	route:
-	  group_by: ['alertname']
-	  group_wait: 10s
-	  group_interval: 10s
-	  repeat_interval: 1h
-	  receiver: 'web.hook'
-	receivers:
-	- name: 'web.hook'
-	  webhook_configs:
-	  - url: 'https://zenduty.com/api/integration/prometheus/8a02aa3b-4289-4360-9ad4-f31f40aea5ed/'
-	inhibit_rules:
-	  - source_match:
-	      severity: 'critical'
-	    target_match:
-	      severity: 'warning'
-	    equal: ['alertname', 'dev', 'instance']
-	```
+6. Go to Alertmanager Folder and open "alertmanager.yml". Add the webhook url (copied in the earlier steps) under "Webhook Configs".
+	 Your "alertmanager.yml" file should now look like this:
+		```
+		global:
+		  resolve_timeout: 5m
+		route:
+		  group_by: ['alertname']
+		  group_wait: 10s
+		  group_interval: 10s
+		  repeat_interval: 1h
+		  receiver: 'web.hook'
+		receivers:
+		- name: 'web.hook'
+		  webhook_configs:
+		  - url: 'https://zenduty.com/api/integration/prometheus/8a02aa3b-4289-4360-9ad4-f31f40aea5ed/'
+		inhibit_rules:
+		  - source_match:
+		      severity: 'critical'
+		    target_match:
+		      severity: 'warning'
+		    equal: ['alertname', 'dev', 'instance']
+		```
 
-7. Make your alert rules in a file titled as first_rules.yml, second_rules.yml, and so on. 
+7. Make your "Alert Rules" in a file titled as "first_rules.yml", "second_rules.yml", and so on. 
 
-8. In the prometheus folder, open prometheus.yml. Add new rules files that you just created, set target. Your prometheus.yml file should look like this:
-	```
-	# my global config
-	global:
-	  scrape_interval:     15s # Set the scrape interval to every 15 seconds. Default is every 1 minute.
-	  evaluation_interval: 15s # Evaluate rules every 15 seconds. The default is every 1 minute.
-	  # scrape_timeout is set to the global default (10s).
-	# Alertmanager configuration
-	alerting:
-	  alertmanagers:
-	  - static_configs:
-	    - targets: ["localhost:9093"]
-	# Load rules once and periodically evaluate them according to the global 'evaluation_interval'.
-	rule_files:
-	  - "first_rules.yml"
-	  # - "second_rules.yml"
-	# A scrape configuration containing exactly one endpoint to scrape:
-	# Here it's Prometheus itself.
-	scrape_configs:
-	  # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
-	  - job_name: 'prometheus'
-	    # metrics_path defaults to '/metrics'
-	    # scheme defaults to 'http'.
-	    static_configs:
-	    - targets: ['localhost:9090']
-	```
+8. In the Prometheus folder, open "prometheus.yml". Add new rules files that you just created and set Target. 
+	Your "prometheus.yml" file should look like this:
+		```
+		# my global config
+		global:
+		  scrape_interval:     15s # Set the scrape interval to every 15 seconds. Default is every 1 minute.
+		  evaluation_interval: 15s # Evaluate rules every 15 seconds. The default is every 1 minute.
+		  # scrape_timeout is set to the global default (10s).
+		# Alertmanager configuration
+		alerting:
+		  alertmanagers:
+		  - static_configs:
+		    - targets: ["localhost:9093"]
+		# Load rules once and periodically evaluate them according to the global 'evaluation_interval'.
+		rule_files:
+		  - "first_rules.yml"
+		  # - "second_rules.yml"
+		# A scrape configuration containing exactly one endpoint to scrape:
+		# Here it's Prometheus itself.
+		scrape_configs:
+		  # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
+		  - job_name: 'prometheus'
+		    # metrics_path defaults to '/metrics'
+		    # scheme defaults to 'http'.
+		    static_configs:
+		    - targets: ['localhost:9090']
+		```
 
-9. Run prometheus and alert manager using commands like:
+9. Run Prometheus and Alert Manager using commands like:
 
 	`run prometheus: ./prometheus --config.file=prometheus.yml`
 
@@ -78,6 +80,5 @@ Prometheus is an open-source monitoring solution that resides locally on your ma
 When an alert is required, Zenduty will automatically create an incident. 
 
 ![](/img/Integrations/Prometheus/incident.png)
-
 
 11. Prometheus is now integrated.

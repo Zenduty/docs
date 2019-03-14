@@ -20,7 +20,7 @@ Runscope provides solutions for API performance testing, monitoring and debuggin
 
 ![](/img/Integrations/Runscope/2.png)
 
-7. Then click on the Webhooks tab and enter the URL you copied earlier. 
+7. Then click on the "Webhooks" tab and enter the URL you copied earlier. 
 
 ![](/img/Integrations/Runscope/3.png)
 

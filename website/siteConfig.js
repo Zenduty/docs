@@ -21,7 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Zenduty Documentation', // Title for your website.
+  title: 'General Documentation', // Title for your website.
   tagline: 'Be on Zenduty',
   url: 'http://docs.zenduty.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
@@ -38,7 +38,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'Introduction', label: 'Zenduty Documentation'},
+    {doc: 'Introduction'},
   ],
 
   // If you have users set above, you add it here:
@@ -78,7 +78,7 @@ const siteConfig = {
   },
 
   // Add custom scripts here that would be placed in <script> tags.
-  scripts: ['https://buttons.github.io/buttons.js'],
+
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',

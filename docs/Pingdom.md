@@ -12,7 +12,7 @@ Pingdom helps you gain instant insights into your website’s availability and p
 
 4. Go to "Configure" under your integrations and copy the webhooks URL generated. 
 
-5. Log in to Pingdom. Go to integrations-> integrations-> click "Add integration".
+5. Log in to Pingdom. Go to Integrations-> Integrations-> click "Add integration".
 
 ![](/img/Integrations/Pingdom/AddIntegration.png)
 

@@ -28,14 +28,14 @@ NodePing provides uptime monitoring for websites and servers. To integrate NodeP
 
 9. Finally, navigate to the "Body" tab and enter the following payload:
 
-```
-{
- "check_id":"{_id}",
- "state":"{event}",
- "label":"{label}",
- "message":"{m}"
-}
-```
+	```
+	{
+	 "check_id":"{_id}",
+	 "state":"{event}",
+	 "label":"{label}",
+	 "message":"{m}"
+	}
+	```
 
 The screen will look something like this: 
 
@@ -45,7 +45,7 @@ Your webhook for Zenduty is now set up.
 
 10. In order to use the webhook to monitor an endpoint, go to "Checks and Contacts" -> "Checks". Click on the "Add New Check" button. 
 
-11. Under the "Select a new contact to add" dropdown menu, pick the newly added webhook. 
+11. Under the "Select a New Contact to Add" dropdown menu, pick the newly added webhook. 
 
 ![](/img/Integrations/Nodeping/5.png)
 

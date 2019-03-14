@@ -24,7 +24,7 @@ Rollbar provides real-time error alerting & debugging tools for developers. To i
 
 ![](/img/Integrations/Rollbar/3.png)
 
-8. Click on the Webhook option, and then enter the URL you copied earlier.
+8. Click on the "Webhook" option, and then enter the URL you copied earlier.
 
 ![](/img/Integrations/Rollbar/4.png)
 
