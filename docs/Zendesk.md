@@ -2,7 +2,7 @@
 id: Zendesk
 title: Zendesk
 ---
-To integrate Zendesk with Zenduty, complete the following steps:
+Zendesk is a customer service software and support ticketing system. To integrate Zendesk with Zenduty, complete the following steps:
 
 1. To add a new Zendesk integration, go to "Teams" on Zenduty and click on the "Manage" button corresponding to the team you want to add the integration to.
 
