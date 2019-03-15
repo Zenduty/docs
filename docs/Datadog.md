@@ -8,7 +8,7 @@ Datadog is a monitoring service for cloud-scale applications, providing monitori
 2. Next, go to "Services" and click on the "Manage" button correspoding to the relevant Service.
 3. Go to "Integrations" and then "Add New Integration". Give it a name and select the application "Datadog" from the dropdown menu.
 4. Go to "Configure" under your integrations and copy the webhooks URL generated. 
-5. Login to Datadog. From the left hand menu, go to Integrations-> Integrations. Search for "Webhooks" from this page, and click the correspondig button.
+5. Login to Datadog. From the left hand menu, go to Integrations-> Integrations. Search for "Webhooks" from this page, and click the corresponding button.
 
 ![](/img/Integrations/Datadog/Webhooks1.png)
 

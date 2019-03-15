@@ -28,5 +28,5 @@ Rollbar provides real-time error alerting & debugging tools for developers. To i
 
 ![](/img/Integrations/Rollbar/4.png)
 
-9. Rollbar is now created amd all alerts will show up on Zenduty.
+9. Rollbar is now integrated and all alerts will show up on Zenduty.
 

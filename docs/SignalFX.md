@@ -16,7 +16,7 @@ SignalFx is a real-time cloud monitoring platform for infrastructure, microservi
 
 ![](/img/Integrations/SignalFX/1.png)
 
-6. Click on "Webhook" and then click on the "New Integration" button. Paste the webhooks url you copied earlier
+6. Click on "Webhook" and then click on the "New Integration" button. Paste the webhooks url you copied earlier.
 
 ![](/img/Integrations/SignalFX/2.png)
 
