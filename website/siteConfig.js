@@ -70,10 +70,10 @@ const siteConfig = {
   },
   */
   gaTrackingId: 'UA-135991214-1',
-  gaGtag: true
+  gaGtag: true,
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Zenduty`,
+  copyright: `Copyright © ${new Date().getFullYear()} Zenduty Created by YellowAnt`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
