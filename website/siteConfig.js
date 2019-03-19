@@ -81,7 +81,11 @@ const siteConfig = {
   },
 
   // Add custom scripts here that would be placed in <script> tags.
-
+  scripts: [
+    {
+      src: "https://wchat.freshchat.com/js/widget.js",
+    },
+    ],
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
