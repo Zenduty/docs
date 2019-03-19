@@ -56,6 +56,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["Raygun"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["Rollbar"]
       },
       {

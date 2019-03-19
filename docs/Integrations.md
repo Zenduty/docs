@@ -11,6 +11,7 @@ Integrations on Zenduty:
 * [NodePing](NodePing.md)
 * [Pingdom](Pingdom.md)
 * [Prometheus](Prometheus.md)
+* [Raygun](Raygun.md)
 * [Rollbar](Rollbar.md)
 * [Runscope](Runscope.md)
 * [Sentry](Sentry.md)
