@@ -6,9 +6,18 @@
     <script type="text/javascript">
       window.location.href = 'docs/Introduction.html';
     </script>
+    <script src="https://wchat.freshchat.com/js/widget.js"></script>
     <title>Your Site Title Here</title>
   </head>
   <body>
     If you are not redirected automatically, follow this <a href="Introduction.html">link</a>.
+    <script>
+      window.fcWidget.init({
+        token: "f9977ba7-0d41-4e71-921d-8560c9588061",
+        host: "https://wchat.freshchat.com",
+        externalId: "{{ user_id }}",
+        firstName: "{{ display_name }}",
+      });
+    </script>
   </body>
 </html>
