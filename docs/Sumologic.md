@@ -1,6 +1,6 @@
 ---
 id: Sumologic
-title: Sumologic
+title: Sumo Logic
 ---
 Sumo Logic is industry's leading, secure, cloud-based service for logs & metrics management for modern apps, providing real-time analytics and insights. To integrate Sumologic with Zenduty, complete the following steps:
 

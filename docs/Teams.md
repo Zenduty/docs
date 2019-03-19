@@ -17,25 +17,29 @@ Since each team has it's own set of [services](Services.md) and [users](Users.md
 ## Find your teams
 Go to the teams tab in the top header to get a list of all teams you are associated with.
 
+![](/img/teams_1.png)
+
 ## Create a New Team
 Only "Owners" and "Admins" can add a team on Zenduty.
+![](/img/teams_2.png)
 To add a team, complete the following steps:
-1. Click on Configure from the top navigation bar.
-2. Go to "Teams". 
-3. Click on the button labeled "Create Team".
-4. Enter the name of the team and add members
-5. Confirm
+1. Go to "Teams". 
+2. Click on the button labeled "Create Team".
+3. Enter the name of the team and add members
+4. Confirm
 Your team is created.
 
 ## Manage a Team
 Only "Owners" and "Admins" can edit a team on Zenduty. 
 
-When you drill into a team, you can find [Members](Users.md), [Services](Services.md), Incidents, [Schedules](Schedules.md), [Escalation Policies](EscalationPolicies.md), and Analytics associated with it.
+When you drill into a team, you can find [Members](Users.md), [Services](Services.md), Incidents, [Schedules](Schedules.md), [Escalation Policies](EscalationPolicies.md), and Analytics associated with it. To do so, click the "View" button corresponding to the team name.
+![](/img/teams_3.png)
 
 We will explore each of them in detail in later sections.
 
 ## Delete a Team
 Only "Owners" and "Admins" can delete a team on Zenduty. 
+![](/img/teams_4.png)
 To delete a team, complete the following steps:
 
 1. Go to Configure -> Team

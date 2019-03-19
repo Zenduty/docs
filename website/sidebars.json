@@ -5,6 +5,18 @@
     "Users": ["Users"],
 
     "Services": ["Services"],
+    "Escalation Policies": [
+      "Escalation Policies",
+      {
+        "type": "subcategory",
+        "ids": ["EscalationPolicies"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Schedules"]
+      }
+    ],
+    "Incidents": ["Incidents"],
     "Integrations":["Integrations",
       {
         "type": "subcategory",
@@ -28,6 +40,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["Loggly"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["NodePing"]
       },
       {
@@ -40,11 +56,19 @@
       },
       {
         "type": "subcategory",
+        "ids": ["Raygun"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["Rollbar"]
       },
       {
         "type": "subcategory",
         "ids": ["Runscope"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Sentry"]
       },
       {
         "type": "subcategory",
@@ -67,19 +91,6 @@
         "type": "subcategory",
         "ids": ["Zendesk"]
       }
-    ],                              
-  
-  	"Escalation Policies": [
-  		"Escalation Policies",
-  		{
-  			"type": "subcategory",
-  			"ids": ["EscalationPolicies"]
-  		},
-  		{
-  			"type": "subcategory",
-  			"ids": ["Schedules"]
-  		}
-  	],
-    "Incidents": ["Incidents"]  
+    ]  
   }
 }
