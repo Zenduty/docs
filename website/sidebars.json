@@ -3,10 +3,9 @@
   	"Introduction": ["Introduction"],
   	"Teams": ["Teams"],
     "Users": ["Users"],
-
     "Services": ["Services"],
     "Escalation Policies": [
-      "Escalation Policies",
+      "EscalationPolicies",
       {
         "type": "subcategory",
         "ids": ["EscalationPolicies"]
