@@ -1,5 +1,5 @@
 ---
 id: EscalationPolicies
-title: EscalationPolicies
+title: Escalation Policies
 ---
 Each [service](Services.md) in a Zenduty [team](Teams.md) is governed by an Escalation Policy. This Escalation policy combines various [schedules](Schedules.md) and tasks to be performed for the [users](Users.md) in the team as a set of rules. 

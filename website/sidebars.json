@@ -4,19 +4,10 @@
   	"Teams": ["Teams"],
     "Users": ["Users"],
     "Services": ["Services"],
-    "Escalation Policies": [
-      "EscalationPolicies",
-      {
-        "type": "subcategory",
-        "ids": ["EscalationPolicies"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Schedules"]
-      }
-    ],
+    "Escalation Policies": ["EscalationPolicies"],
+    "Schedules": ["Schedules"],
     "Incidents": ["Incidents"],
-    "Integrations":["Integrations",
+    "Integrations":[
       {
         "type": "subcategory",
         "ids": ["Integrations"]
