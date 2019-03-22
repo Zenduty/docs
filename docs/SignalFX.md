@@ -4,13 +4,17 @@ title: SignalFX
 ---
 SignalFx is a real-time cloud monitoring platform for infrastructure, microservices, and applications. The platform discovers and collects metrics across every component in your cloud environment, replacing traditional point tools and providing real-time predictive analytics. To integrate SignalFX with Zenduty, complete the following steps:
 
+## In Zenduty: 
+
 1. To add a new SignalFX integration, go to "Teams" on Zenduty and click on the "Manage" button corresponding to the team you want to add the integration to.
 
 2. Next, go to "Services" and click on the "Manage" button correspoding to the relevant Service.
 
 3. Go to "Integrations" and then "Add New Integration". Give it a name and select the application "SignalFX" from the dropdown menu.
 
-4. Go to "Configure" under your integrations and copy the webhooks URL generated
+4. Go to "Configure" under your integrations and copy the webhooks URL generated.
+
+## In SignalFX:
 
 5. Log in to your SignalFX account. Click on the "Integrations" tab and scroll down to the "Notification Services" section.
 

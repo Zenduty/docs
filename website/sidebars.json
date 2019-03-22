@@ -22,6 +22,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["Freshdesk"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["Grafana"]
       },
       {
@@ -63,6 +67,10 @@
       {
         "type": "subcategory",
         "ids": ["SignalFX"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Splunk"]
       },
       {
         "type": "subcategory",
