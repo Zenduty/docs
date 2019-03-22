@@ -4,10 +4,15 @@ title: Loggly
 ---
 Loggly provides log analysis and monitoring in the cloud. To integrate Loggly with Zenduty, complete the following steps:
 
+## In Zenduty: 
+
 1. To add a new Loggly integration, go to "Teams" on Zenduty and click on the "Manage" button corresponding to the team you want to add the integration to.
 2. Next, go to "Services" and click on the "Manage" button correspoding to the relevant Service.
 3. Go to "Integrations" and then "Add New Integration". Give it a name and select the application "Loggly" from the dropdown menu.
 4. Go to "Configure" under your integrations and copy the webhooks URL generated.
+
+## In Loggly: 
+
 5. Log in to Loggly, and navigate to the "Alerts" tab at the top of the page.
 
 ![](/img/Integrations/Loggly/1.png)

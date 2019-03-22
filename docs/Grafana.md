@@ -4,6 +4,8 @@ title: Grafana
 ---
 Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored. To integrate Grafana with Zenduty, complete the following steps:
 
+## In Zenduty: 
+
 1. To add a new Grafana integration, go to "Teams" on Zenduty and click on the "Manage" button corresponding to the team you want to add the integration to.
 
 2. Next, go to "Services" and click on the "Manage" button correspoding to the relevant Service.
@@ -11,6 +13,8 @@ Grafana allows you to query, visualize, alert on and understand your metrics no 
 3. Go to "Integrations" and then "Add New Integration". Give it a name and select the application "Grafana" from the dropdown menu.
 
 4. Go to "Configure" under your integrations and copy the webhooks URL generated. 
+
+## In Grafana: 
 
 5. Log in to Grafana. Go to "Notification Channels". Add New Channel.Select type as "Webhook". 
 

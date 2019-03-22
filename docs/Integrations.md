@@ -5,6 +5,7 @@ title: Integrations
 Integrations on Zenduty:
 * [Datadog](Datadog.md)
 * [Dynatrace](Dynatrace.md)
+* [Freshdesk](Freshdesk.md)
 * [Grafana](Grafana.md)
 * [Honeybadger](Honeybadger.md)
 * [Loggly](Loggly.md)
@@ -16,6 +17,7 @@ Integrations on Zenduty:
 * [Runscope](Runscope.md)
 * [Sentry](Sentry.md)
 * [SignalFX](SignalFX.md)
+* [Splunk](Splunk.md)
 * [StatusPage](StatusPage.md)
 * [Sumologic](Sumologic.md)
 * [Uptime](Uptime.md)

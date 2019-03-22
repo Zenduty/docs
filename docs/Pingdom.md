@@ -4,6 +4,8 @@ title: Pingdom
 ---
 Pingdom helps you gain instant insights into your website’s availability and performance. To integrate Pingdom with Zenduty, complete the following steps:
 
+## In Zenduty: 
+
 1. To add a new Pingdom integration, go to "Teams" on Zenduty and click on the "Manage" button corresponding to the team you want to add the integration to.
 
 2. Next, go to "Services" and click on the "Manage" button correspoding to the relevant Service.
@@ -11,6 +13,8 @@ Pingdom helps you gain instant insights into your website’s availability and p
 3. Go to "Integrations" and then "Add New Integration". Give it a name and select the application "Pingdom" from the dropdown menu.
 
 4. Go to "Configure" under your integrations and copy the webhooks URL generated. 
+
+## In Pingdom: 
 
 5. Log in to Pingdom. Go to Integrations-> Integrations-> click "Add integration".
 

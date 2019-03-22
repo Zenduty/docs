@@ -4,6 +4,8 @@ title: StatusPage
 ---
 StatusPage.io is the best way for web infrastructure, developer API, and SaaS companies to get set up with their very own status page in minutes. To integrate StatusPage with Zenduty, complete the following steps:
 
+## In Zenduty:
+
 1. To add a new StatusPage integration, go to "Teams" on Zenduty and click on the "Manage" button corresponding to the team you want to add the integration to.
 
 2. Next, go to "Services" and click on the "Manage" button correspoding to the relevant Service.
@@ -11,6 +13,8 @@ StatusPage.io is the best way for web infrastructure, developer API, and SaaS co
 3. Go to "Integrations" and then "Add New Integration". Give it a name and select the application "StatusPage" from the dropdown menu.
 
 4. Go to "Configure" under your integrations and copy the webhooks URL generated.
+
+## In StatusPage: 
 
 5. Login. Go to Notifications -> Subscribers. Click on "Add Subscriber".
 

@@ -3,21 +3,11 @@
   	"Introduction": ["Introduction"],
   	"Teams": ["Teams"],
     "Users": ["Users"],
-
     "Services": ["Services"],
-    "Escalation Policies": [
-      "Escalation Policies",
-      {
-        "type": "subcategory",
-        "ids": ["EscalationPolicies"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Schedules"]
-      }
-    ],
+    "Escalation Policies": ["EscalationPolicies"],
+    "Schedules": ["Schedules"],
     "Incidents": ["Incidents"],
-    "Integrations":["Integrations",
+    "Integrations":[
       {
         "type": "subcategory",
         "ids": ["Integrations"]
@@ -29,6 +19,10 @@
       {
         "type": "subcategory",
         "ids": ["Dynatrace"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Freshdesk"]
       },
       {
         "type": "subcategory",
@@ -73,6 +67,10 @@
       {
         "type": "subcategory",
         "ids": ["SignalFX"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Splunk"]
       },
       {
         "type": "subcategory",
