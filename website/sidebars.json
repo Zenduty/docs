@@ -20,6 +20,10 @@
         "type": "subcategory",
         "ids": ["Bitbucket"]
       },
+       {
+        "type": "subcategory",
+        "ids": ["Bugsnag"]
+      },
       {
         "type": "subcategory",
         "ids": ["Datadog"]

@@ -5,6 +5,7 @@ title: Integrations
 Integrations on Zenduty:
 * [AWS CloudWatch](Cloudwatch.md)
 * [Bitbucket](Bitbucket.md)
+* [Bugsnag](Bugsnag.md)
 * [Datadog](Datadog.md)
 * [Dynatrace](Dynatrace.md)
 * [Freshdesk](Freshdesk.md)
