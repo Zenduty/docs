@@ -50,7 +50,15 @@
       },
       {
         "type": "subcategory",
+        "ids": ["Idera"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["Jenkins"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Kayako"]
       },
       {
         "type": "subcategory",
