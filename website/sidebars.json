@@ -14,6 +14,18 @@
       },
       {
         "type": "subcategory",
+        "ids": ["Cloudwatch"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Bitbucket"]
+      },
+       {
+        "type": "subcategory",
+        "ids": ["Bugsnag"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["Datadog"]
       },
       {
@@ -26,11 +38,27 @@
       },
       {
         "type": "subcategory",
+        "ids": ["Github"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["Grafana"]
       },
       {
         "type": "subcategory",
         "ids": ["Honeybadger"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Idera"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Jenkins"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Kayako"]
       },
       {
         "type": "subcategory",

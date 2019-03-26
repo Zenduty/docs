@@ -3,11 +3,18 @@ id: Integrations
 title: Integrations
 ---
 Integrations on Zenduty:
+* [AWS CloudWatch](Cloudwatch.md)
+* [Bitbucket](Bitbucket.md)
+* [Bugsnag](Bugsnag.md)
 * [Datadog](Datadog.md)
 * [Dynatrace](Dynatrace.md)
 * [Freshdesk](Freshdesk.md)
+* [Github](Github.md)
 * [Grafana](Grafana.md)
 * [Honeybadger](Honeybadger.md)
+* [IDERA Copperegg](Idera.md)
+* [Jenkins](Jenkins.md)
+* [Kayako](Kayako.md)
 * [Loggly](Loggly.md)
 * [NodePing](NodePing.md)
 * [Pingdom](Pingdom.md)
