@@ -41,7 +41,3 @@ In this example, we'll look at monitoring the status of a URL.
 	![](/img/Integrations/Idera/4.png)
 
 9. IDERA is now integrated, and all alerts will show up as Zenduty Incidents.
-
-
-
-

@@ -34,3 +34,5 @@ Simply click on the "View" button next to the policy you want to edit. Edit the 
 ## Deleting an Escalation Policy:
 
 To delete an Escalation Policy, click on the "Remove" button next to the corresponding policy, and confirm.
+
+![](/img/ep_4.png)
