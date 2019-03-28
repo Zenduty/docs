@@ -10,11 +10,3 @@ deploy:
         - GIT_USER=vishwa306 CURRENT_BRANCH=master yarn run publish-gh-pages
     on:
       branch: master
-  - skip_cleanup: true
-    provider: script
-    script:
-        - cd website 
-        - GIT_USER=vishwa306 CURRENT_BRANCH=master yarn run publish-gh-pages
-    on:
-      all_branches: true
-      condition: '"$TRAVIS_BRANCH" != "master" && "$TRAVIS_BRANCH" != "gh-pages"'
