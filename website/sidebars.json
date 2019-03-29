@@ -5,7 +5,16 @@
     "Users": ["Users"],
     "Services": ["Services"],
     "Escalation Policies": ["EscalationPolicies"],
-    "Schedules": ["Schedules"],
+    "Schedules": [
+      {
+        "type": "subcategory",
+        "ids":["SchedulesOv"]
+      },
+      {
+        "type": "subcategory",
+        "ids":["SchedulesEx"]
+      }
+    ],
     "Incidents": ["Incidents"],
     "Integrations":[
       {
@@ -20,9 +29,13 @@
         "type": "subcategory",
         "ids": ["Bitbucket"]
       },
-       {
+     {
         "type": "subcategory",
         "ids": ["Bugsnag"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Fabric"]
       },
       {
         "type": "subcategory",
