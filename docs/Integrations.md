@@ -1,6 +1,6 @@
 ---
 id: Integrations
-title: Integrations
+title: Integrations on Zenduty
 ---
 Integrations on Zenduty:
 * [AWS CloudWatch](Cloudwatch.md)
