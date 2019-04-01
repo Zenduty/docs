@@ -1,20 +1,13 @@
 language: node_js
-sudo: required
 node_js:
-  - "node"
-deploy:
-  - skip_cleanup: true
-    provider: script
-    script:
-        - cd website 
-        - GIT_USER=vishwa306 CURRENT_BRANCH=master yarn run publish-gh-pages
-    on:
-      branch: master
-  - skip_cleanup: true
-    provider: script
-    script:
-        - cd website 
-        - GIT_USER=vishwa306 CURRENT_BRANCH=master yarn run publish-gh-pages
-    on:
-      all_branches: true
-      condition: '"$TRAVIS_BRANCH" != "master" && "$TRAVIS_BRANCH" != "gh-pages"'
+  - '8'
+branches:
+  only:
+    - master
+cache:
+  yarn: true
+script:
+  - git config --global user.name "${GH_NAME}"
+  - git config --global user.email "${GH_EMAIL}"
+  - echo "machine github.com login ${GH_NAME} password ${GH_TOKEN}" > ~/.netrc
+  - cd website && yarn install && GIT_USER="${GH_NAME}" yarn run publish-gh-pages

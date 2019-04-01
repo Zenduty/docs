@@ -16,4 +16,4 @@ Sentry is an open-source error tracking that helps developers monitor and fix cr
 ![](/img/Integrations/Sentry/1.png)
 
 9. Click "Save".
-10. Zenduty will create incidents based on Sentry alerts. 
+10. Zenduty will create incidents whenever Sentry detects an error. 

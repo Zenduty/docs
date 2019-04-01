@@ -27,8 +27,8 @@ Dynatrace provides application performance management, artificial intelligence f
 	"State":"{State}",
 	"ProblemID":"{ProblemID}",
 	"ProblemTitle":"{ProblemTitle}",
-	"ProblemDetails":"{ProblemDetailsText}}",
-	"ProblemURL":"{ProblemURL}}"
+	"ProblemDetails":"{ProblemDetailsText}",
+	"ProblemURL":"{ProblemURL}"
 	}
 	```
 
