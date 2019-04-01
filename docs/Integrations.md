@@ -3,6 +3,7 @@ id: Integrations
 title: Integrations on Zenduty
 ---
 Integrations on Zenduty:
+* [Email](Email.md)
 * [AWS CloudWatch](Cloudwatch.md)
 * [Bitbucket](Bitbucket.md)
 * [Bugsnag](Bugsnag.md)
