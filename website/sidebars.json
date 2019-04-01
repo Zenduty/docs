@@ -23,6 +23,14 @@
       },
       {
         "type": "subcategory",
+        "ids": ["Email"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["AppBeat"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["Cloudwatch"]
       },
       {
@@ -112,6 +120,10 @@
       {
         "type": "subcategory",
         "ids": ["Splunk"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["StatusCake"]
       },
       {
         "type": "subcategory",

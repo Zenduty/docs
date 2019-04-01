@@ -4,6 +4,7 @@ title: Integrations on Zenduty
 ---
 Integrations on Zenduty:
 * [Email](Email.md)
+* [AppBeat](AppBeat.md)
 * [AWS CloudWatch](Cloudwatch.md)
 * [Bitbucket](Bitbucket.md)
 * [Bugsnag](Bugsnag.md)
@@ -27,6 +28,7 @@ Integrations on Zenduty:
 * [Sentry](Sentry.md)
 * [SignalFX](SignalFX.md)
 * [Splunk](Splunk.md)
+* [StatusCake](StatusCake.md)
 * [StatusPage](StatusPage.md)
 * [Sumologic](Sumologic.md)
 * [Uptime](Uptime.md)
