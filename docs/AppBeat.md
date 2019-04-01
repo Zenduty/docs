@@ -17,7 +17,7 @@ AppBeat allows you to monitor your online service proactively so you can react b
 
 ## In AppBeat:
 
-5. Log in to AppBeat, and go to Alerting -> Third Party Service Integration..
+5. Log in to AppBeat, and go to Alerting -> Third Party Service Integration.
 
 6. Under the "Add new integration" dropdown, select the "Dynamic Webhook" option.
 
