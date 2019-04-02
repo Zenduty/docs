@@ -3,8 +3,7 @@ id: OpsDash
 title: OpsDash
 ---
 
-OpsDash is an all-in-one solution for server monitoring, uptime monitoring, database monitoring,
-service monitoring and app metric monitoring. To integrate OpsDash with Zenduty, complete the following steps:
+OpsDash is an all-in-one solution for server monitoring, uptime monitoring, database monitoring, service monitoring and app metric monitoring. To integrate OpsDash with Zenduty, complete the following steps:
 
 ## In Zenduty:
 

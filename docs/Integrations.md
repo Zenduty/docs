@@ -8,6 +8,7 @@ Integrations on Zenduty:
 * [AWS CloudWatch](Cloudwatch.md)
 * [Bitbucket](Bitbucket.md)
 * [Bugsnag](Bugsnag.md)
+* [Checkly](Checkly.md)
 * [Crashlytics Fabric](Fabric.md)
 * [Datadog](Datadog.md)
 * [Dynatrace](Dynatrace.md)
