@@ -20,6 +20,7 @@ Integrations on Zenduty:
 * [Kayako](Kayako.md)
 * [Loggly](Loggly.md)
 * [NodePing](NodePing.md)
+* [OpsDash](OpsDash.md)
 * [Pingdom](Pingdom.md)
 * [Prometheus](Prometheus.md)
 * [Raygun](Raygun.md)
