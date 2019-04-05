@@ -21,7 +21,7 @@ Checkly allows you to monitor the performance and correctness of your API endpoi
 
 6. Click on "Create Check" and select "API check".
 
-7. Give your Check a name. Set the method as “GET” and enter the url of API we need to check.
+7. Give your Check a name. Set the method as “GET” and enter the url of the API you need to check.
 
 ![](/img/Integrations/Checkly/1.png)
 
