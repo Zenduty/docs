@@ -19,6 +19,7 @@ Integrations on Zenduty:
 * [IDERA Copperegg](Idera.md)
 * [Jenkins](Jenkins.md)
 * [Kayako](Kayako.md)
+* [LogDNA](LogDNA.md)
 * [Loggly](Loggly.md)
 * [NodePing](NodePing.md)
 * [OpsDash](OpsDash.md)

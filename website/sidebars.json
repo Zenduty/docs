@@ -87,6 +87,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["LogDNA"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["Loggly"]
       },
       {
