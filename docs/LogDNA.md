@@ -62,4 +62,4 @@ LogDNA provides powerful, centralized logging and log analysis that deploys anyw
 
 ![](/img/Integrations/LogDNA/10.png)
 
-16. LogDNA is not integrated. Zenduty will create incidents from alerts. 
+16. LogDNA is now integrated. Zenduty will create incidents from alerts. 
