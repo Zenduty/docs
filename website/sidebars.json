@@ -127,6 +127,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["Site24x7"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["Splunk"]
       },
       {
