@@ -15,6 +15,7 @@ Integrations on Zenduty:
 * [Freshdesk](Freshdesk.md)
 * [Github](Github.md)
 * [Grafana](Grafana.md)
+* [Graylog](Graylog.md)
 * [Honeybadger](Honeybadger.md)
 * [IDERA Copperegg](Idera.md)
 * [Jenkins](Jenkins.md)

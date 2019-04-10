@@ -21,7 +21,7 @@ A list of all the services in a team will be visible to you.
 	Auto-Resolve Timeout: Enter time in minutes after which the incident is automatically marked as resolved. 
 3. Click "Save" to confirm. 
 ![](/img/services_2.png) 
-
+d d
 ## Editing a Service in a Team
 
 Click on the "Manage" button corresponding to the Service you wish to edit. The Manage Service section has 5 headers:

@@ -8,7 +8,7 @@
     "Schedules": [
       {
         "type": "subcategory",
-        "ids":["SchedulesOv"]
+        "ids":["Schedules"]
       },
       {
         "type": "subcategory",
@@ -68,6 +68,10 @@
       {
         "type": "subcategory",
         "ids": ["Grafana"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Graylog"]
       },
       {
         "type": "subcategory",

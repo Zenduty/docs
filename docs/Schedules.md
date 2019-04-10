@@ -1,5 +1,5 @@
 ---
-id: SchedulesOv
+id: Schedules
 title: Schedules Overview
 ---
 There are 3 parts that are key in configuring a schedule:
@@ -47,7 +47,7 @@ Click "Create" to Save
 
 ### Overlapping Shifts
 
-rotation layers are cumulative. If the time frames for shifts overlap, all the layerss apply, hence there may be multiple participants assigned to be on-call at the same time.
+Rotation layers are cumulative. If the time frames for shifts overlap, all the layerss apply, hence there may be multiple participants assigned to be on-call at the same time.
 
 ### Nobody is On-Call
 It is possible to have a schedule with gaps where no one is on-call during certain times. If no one is on-call at a certain escalation level, the incident will immediately escalate to the next level of the escalation policy. If no one is on-call on the entire escalation policy, an incident will not be assigned.
