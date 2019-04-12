@@ -2,11 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>http://docs.zenduty.com/help</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/en/help" /> </url>
 <url> <loc>http://docs.zenduty.com/users</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/en/users" /> </url>
+<url> <loc>http://docs.zenduty.com/docs/Analytics</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Analytics" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/AppBeat</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/AppBeat" /> </url>
+<url> <loc>http://docs.zenduty.com/docs/Atatus</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Atatus" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Bitbucket</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Bitbucket" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Bugsnag</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Bugsnag" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Checkly</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Checkly" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Cloudwatch</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Cloudwatch" /> </url>
+<url> <loc>http://docs.zenduty.com/docs/ContactNotification</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/ContactNotification" /> </url>
+<url> <loc>http://docs.zenduty.com/docs/Context</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Context" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Datadog</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Datadog" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Dynatrace</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Dynatrace" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Email</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Email" /> </url>
@@ -44,6 +48,8 @@
 <url> <loc>http://docs.zenduty.com/docs/Sumologic</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Sumologic" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Teams</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Teams" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Uptime</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Uptime" /> </url>
+<url> <loc>http://docs.zenduty.com/docs/UptimeRobot</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/UptimeRobot" /> </url>
+<url> <loc>http://docs.zenduty.com/docs/Uptrends</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Uptrends" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Users</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Users" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Zendesk</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Zendesk" /> </url>
 </urlset>
