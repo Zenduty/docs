@@ -1,9 +1,38 @@
 {
   "Navigation": {
-  	"Introduction": ["Introduction"],
-  	"Teams": ["Teams"],
-    "Users": ["Users"],
-    "Services": [
+  	"Getting Started": [
+      {
+        "type": "subcategory",
+        "ids": ["Introduction"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Teams"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Users"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["ContactNotification"]
+      }
+    ],
+    "Escalation and Schedules": [
+      {
+        "type": "subcategory",
+        "ids":["EscalationPolicies"]
+      },
+      {
+        "type": "subcategory",
+        "ids":["Schedules"]
+      },
+      {
+        "type": "subcategory",
+        "ids":["SchedulesEx"]
+      }
+    ],
+    "Services and Integrations": [
       {
         "type": "subcategory",
         "ids": ["Services"]
@@ -17,17 +46,6 @@
         "ids": ["Context"]
       }
     ],
-    "Escalation Policies": ["EscalationPolicies"],
-    "Schedules": [
-      {
-        "type": "subcategory",
-        "ids":["Schedules"]
-      },
-      {
-        "type": "subcategory",
-        "ids":["SchedulesEx"]
-      }
-    ],
     "Incidents": ["Incidents"],
     "Analytics": ["Analytics"],
     "Integrations":[
@@ -38,6 +56,10 @@
       {
         "type": "subcategory",
         "ids": ["AppBeat"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Atatus"]
       },
       {
         "type": "subcategory",
@@ -166,6 +188,14 @@
       {
         "type": "subcategory",
         "ids": ["Uptime"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["UptimeRobot"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Uptrends"]
       },
 
       {

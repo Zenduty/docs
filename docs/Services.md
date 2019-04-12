@@ -1,6 +1,6 @@
 ---
 id: Services
-title: Services in Zenduty Teams 
+title: Services
 ---
 Only "Owners" and "Admins" can edit a team on Zenduty.
 
@@ -21,7 +21,7 @@ A list of all the services in a team will be visible to you.
 	Auto-Resolve Timeout: Enter time in minutes after which the incident is automatically marked as resolved. 
 3. Click "Save" to confirm. 
 ![](/img/services_2.png) 
-d d
+
 ## Editing a Service in a Team
 
 Click on the "Manage" button corresponding to the Service you wish to edit. The Manage Service section has 5 headers:
@@ -49,11 +49,11 @@ To edit the settings of a service, simply make the desired changes and click "Sa
 
 ### Context
 
-Find the context incidents related to the service here. Read more about context here.
+Find the context incidents related to the service here. Read more about context [here](Context.md).
 
 ### Analytics
 
-Find analytics about this service here. Read more about analytics here.
+Find analytics about this service here. Read more about analytics [here](Analytics.md).
 
 ## Deleting a Service
 

@@ -7,6 +7,7 @@ Integrations allow you to connect external apps to your service. A service can h
 Integrations on Zenduty:
 * [Email](Email.md)
 * [AppBeat](AppBeat.md)
+* [Atatus](Atatus.md)
 * [AWS CloudWatch](Cloudwatch.md)
 * [Bitbucket](Bitbucket.md)
 * [Bugsnag](Bugsnag.md)
@@ -39,4 +40,6 @@ Integrations on Zenduty:
 * [StatusPage](StatusPage.md)
 * [Sumologic](Sumologic.md)
 * [Uptime](Uptime.md)
+* [UptimeRobot](UptimeRobot.md)
+* [Uptrends](Uptrends.md)
 * [Zendesk](Zendesk.md)
