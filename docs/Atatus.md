@@ -2,7 +2,7 @@
 id: Atatus
 title: Atatus
 ---
-Atatus is a monitoring service to view uptime, downtime and the response times. To integrate Atatus with Zenduty, complete the following steps:
+Get deeper insight into performance issues and crashes affecting your apps using Atatus's performance monitoring and error tracking service. . To integrate Atatus with Zenduty, complete the following steps:
 
 ## In Zenduty:
 
