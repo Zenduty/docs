@@ -1,7 +1,9 @@
 ---
 id: Integrations
-title: Integrations on Zenduty
+title: Integrations
 ---
+Integrations allow you to connect external apps to your service. A service can have multiple integrations. Conversly, an integration can be added to multiple services. Alerts from your integrations form incidents in Zenduty.
+
 Integrations on Zenduty:
 * [Email](Email.md)
 * [AppBeat](AppBeat.md)

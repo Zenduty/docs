@@ -3,7 +3,20 @@
   	"Introduction": ["Introduction"],
   	"Teams": ["Teams"],
     "Users": ["Users"],
-    "Services": ["Services"],
+    "Services": [
+      {
+        "type": "subcategory",
+        "ids": ["Services"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Integrations"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Context"]
+      }
+    ],
     "Escalation Policies": ["EscalationPolicies"],
     "Schedules": [
       {
@@ -16,11 +29,8 @@
       }
     ],
     "Incidents": ["Incidents"],
+    "Analytics": ["Analytics"],
     "Integrations":[
-      {
-        "type": "subcategory",
-        "ids": ["Integrations"]
-      },
       {
         "type": "subcategory",
         "ids": ["Email"]
