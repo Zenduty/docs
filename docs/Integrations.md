@@ -37,6 +37,7 @@ Integrations on Zenduty:
 * [Site24x7](Site24x7.md)
 * [Splunk](Splunk.md)
 * [StatusCake](StatusCake.md)
+* [StatusHub](StatusHub.md)
 * [StatusPage](StatusPage.md)
 * [Sumologic](Sumologic.md)
 * [Uptime](Uptime.md)
