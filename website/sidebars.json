@@ -44,6 +44,10 @@
       {
         "type": "subcategory",
         "ids": ["Context"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["AlertRules"]
       }
     ],
     "Incidents": ["Incidents"],
