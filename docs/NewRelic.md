@@ -4,7 +4,8 @@ title: New Relic
 ---
 New Relic is a web application performance service designed to work in a real time with your live web app. To integrate New Relic with Zenduty, complete the following steps:
 
-## In Zenduty: 
+
+## In Zenduty:
 
 1. To add a new New Relic integration, go to "Teams" on Zenduty and click on the "Manage" button corresponding to the team you want to add the integration to.
 

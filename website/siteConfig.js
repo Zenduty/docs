@@ -21,8 +21,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'General Documentation', // Title for your website.
-  tagline: 'Be on Zenduty',
+  title: 'Zenduty - General Documentation', // Title for your website.
+  tagline: 'Advanced Incident and On-Call Management for DevOps and SRE teams',
   cname: 'docs.zenduty.com',
   url: 'http://docs.zenduty.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
