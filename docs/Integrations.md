@@ -25,6 +25,7 @@ Integrations on Zenduty:
 * [Kayako](Kayako.md)
 * [LogDNA](LogDNA.md)
 * [Loggly](Loggly.md)
+* [New Relic](NewRelic.md)
 * [NodePing](NodePing.md)
 * [OpsDash](OpsDash.md)
 * [Pingdom](Pingdom.md)

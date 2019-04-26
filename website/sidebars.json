@@ -135,6 +135,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["NewRelic"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["NodePing"]
       },
       {
