@@ -70,18 +70,31 @@
 </ol>
 <p><img src="/img/Integrations/Sumologic/1.png" alt=""></p>
 <ol start="7">
-<li>Add a Host Metrics source in Sumo Logic. The host metric depends on the user.
-Here's a screenshot of a sample metric to monitor CPU activity.</li>
+<li><p>In the URL field, add the Webhook URL copied from before. In the</p></li>
+<li><p>In the payload section, paste the following:</p></li>
 </ol>
-<p><img src="/img/Integrations/Sumologic/2.png" alt=""></p>
-<ol start="8">
-<li><p>After this is setup, go to Manage Data -&gt; Alerts and click on the &quot;Add Monitor&quot; button at the top right of the screen.</p></li>
-<li><p>The Metric Query and Rules depend on the Host Metrics source.</p></li>
+<pre><code class="hljs">{
+  <span class="hljs-attr">"alert_status"</span>: <span class="hljs-string">"critical"</span>
+  <span class="hljs-string">"search_name"</span>: <span class="hljs-string">"{{SearchName}}"</span>,
+  <span class="hljs-attr">"search_description"</span>: <span class="hljs-string">"{{SearchDescription}}"</span>,
+  <span class="hljs-attr">"search_query"</span>: <span class="hljs-string">"{{SearchQuery}}"</span>,
+  <span class="hljs-attr">"search_query_url"</span>: <span class="hljs-string">"{{SearchQueryUrl}}"</span>,
+  <span class="hljs-attr">"time_range"</span>: <span class="hljs-string">"{{TimeRange}}"</span>,
+  <span class="hljs-attr">"fire_time"</span>: <span class="hljs-string">"{{FireTime}}"</span>,
+  <span class="hljs-attr">"raw_results_json"</span>: <span class="hljs-string">"{{RawResultsJson}}"</span>,
+  <span class="hljs-attr">"num_raw_results"</span>: <span class="hljs-string">"{{NumRawResults}}"</span>,
+  <span class="hljs-attr">"aggregate_results_json"</span> : <span class="hljs-string">"{{AggregateResultsJson}}"</span>
+}
+</code></pre>
+<ol start="9">
+<li><p>Click on Save</p></li>
+<li><p>Go to the SumoLogic Scheduled Search screen. Click on &quot;Save as&quot; under your Search query. In the &quot;Save Search As&quot; section, enter a name for the search.</p></li>
+<li><p>Click Schedule this search.</p></li>
+<li><p>Choose an option from the &quot;Run Frequency&quot; menu.</p></li>
+<li><p>For Alert Type, choose &quot;Webhook&quot;. Select &quot;Zenduty&quot;</p></li>
+<li><p>Click on &quot;Save&quot;</p></li>
 </ol>
-<p><img src="/img/Integrations/Sumologic/3.png" alt=""></p>
-<ol start="10">
-<li>And that's it! The rules should trigger alerts which will then be visible on the Zenduty incidents page.</li>
-</ol>
+<p>And that's it! The rules should trigger alerts which will then be visible on the Zenduty incidents page.</p>
 </span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/StatusPage"><span class="arrow-prev">← </span><span class="function-name-prevnext">StatusPage</span></a><a class="docs-next button" href="/docs/Uptime"><span>Uptime</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#in-zenduty">In Zenduty:</a></li><li><a href="#in-sumologic">In Sumologic:</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="copyright">Copyright © 2019 Zenduty Created by YellowAnt</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
                 document.addEventListener('keyup', function(e) {
                   if (e.target !== document.body) {
