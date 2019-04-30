@@ -70,12 +70,12 @@
 </ol>
 <p><img src="/img/Integrations/Sumologic/1.png" alt=""></p>
 <ol start="7">
-<li><p>In the URL field, add the Webhook URL copied from before. In the</p></li>
+<li><p>In the URL field, add the Webhook URL copied from before.</p></li>
 <li><p>In the payload section, paste the following:</p></li>
 </ol>
 <pre><code class="hljs">{
-  <span class="hljs-attr">"alert_status"</span>: <span class="hljs-string">"critical"</span>
-  <span class="hljs-string">"search_name"</span>: <span class="hljs-string">"{{SearchName}}"</span>,
+  <span class="hljs-attr">"alert_status"</span>: <span class="hljs-string">"critical"</span>,
+  <span class="hljs-attr">"search_name"</span>: <span class="hljs-string">"{{SearchName}}"</span>,
   <span class="hljs-attr">"search_description"</span>: <span class="hljs-string">"{{SearchDescription}}"</span>,
   <span class="hljs-attr">"search_query"</span>: <span class="hljs-string">"{{SearchQuery}}"</span>,
   <span class="hljs-attr">"search_query_url"</span>: <span class="hljs-string">"{{SearchQueryUrl}}"</span>,
