@@ -22,13 +22,13 @@ Sumo Logic is industry's leading, secure, cloud-based service for logs & metrics
 
 ![](/img/Integrations/Sumologic/1.png)
 
-7. In the URL field, add the Webhook URL copied from before. In the 
+7. In the URL field, add the Webhook URL copied from before. 
 
 8. In the payload section, paste the following:
 
 ```
 {
-  "alert_status": "critical"
+  "alert_status": "critical",
   "search_name": "{{SearchName}}",
   "search_description": "{{SearchDescription}}",
   "search_query": "{{SearchQuery}}",
