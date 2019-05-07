@@ -2,7 +2,7 @@
 id: Fabric
 title: Crashlytics Fabric
 ---
-Crashlytics Fabric allows for for crash reporting, application logging, online review and statistical analysis of application logs.. To integrate Fabric with Zenduty, complete the following steps:
+Crashlytics Fabric allows for for crash reporting, application logging, online review and statistical analysis of application logs. To integrate Fabric with Zenduty, complete the following steps:
 
 ## In Zenduty: 
 

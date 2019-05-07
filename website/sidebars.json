@@ -95,6 +95,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["FirebaseCrashlytics"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["Freshdesk"]
       },
       {

@@ -15,6 +15,7 @@ Integrations on Zenduty:
 * [Crashlytics Fabric](Fabric.md)
 * [Datadog](Datadog.md)
 * [Dynatrace](Dynatrace.md)
+* [Firebase Crashlytics](FirebaseCrashlytics.md)
 * [Freshdesk](Freshdesk.md)
 * [Github](Github.md)
 * [Grafana](Grafana.md)
