@@ -115,6 +115,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["Healthchecks"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["Honeybadger"]
       },
       {
@@ -136,6 +140,10 @@
       {
         "type": "subcategory",
         "ids": ["Loggly"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Monitis"]
       },
       {
         "type": "subcategory",
