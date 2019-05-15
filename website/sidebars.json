@@ -199,10 +199,6 @@
       },
       {
         "type": "subcategory",
-        "ids": ["StatusHub"]
-      },
-      {
-        "type": "subcategory",
         "ids": ["StatusPage"]
       },
       {
