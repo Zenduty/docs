@@ -49,7 +49,6 @@
 <url> <loc>http://docs.zenduty.com/docs/Site24x7</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Site24x7" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Splunk</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Splunk" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/StatusCake</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/StatusCake" /> </url>
-<url> <loc>http://docs.zenduty.com/docs/StatusHub</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/StatusHub" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/StatusPage</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/StatusPage" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Sumologic</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Sumologic" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Teams</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Teams" /> </url>
