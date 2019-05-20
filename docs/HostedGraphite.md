@@ -33,7 +33,7 @@ Hosted Graphite  is an add-on for providing application performance metrics. Hos
 
 ![](/img/Integrations/HostedGraphite/4.png)
 
-11.	Then set the "alert criteria" and select the notification channel that you have created in step 7. Add alerting notification interval. Save.
+11.	Then set the "alert criteria" and select the notification channel that you have created earlier. Add alerting notification interval. Save.
 
 ![](/img/Integrations/HostedGraphite/5.png) 
 

@@ -2,7 +2,7 @@
 id: Scout
 title: Scout
 ---
-Scout continually tracks down N+1 database queries, sources of memory bloat, performance abnormalities, and mor To integrate Scout with Zenduty, complete the following steps:
+Scout continually tracks down N+1 database queries, sources of memory bloat, performance abnormalities, and more. To integrate Scout with Zenduty, complete the following steps:
 
 ## In Zenduty: 
 
@@ -13,7 +13,7 @@ Scout continually tracks down N+1 database queries, sources of memory bloat, per
 
 ## In Scout:
 
-5. Log In to scout.
+5. Log In to Scout.
 
 6. Go to "Applications" > "Add Application". Follow the steps given there to add a new application.
 

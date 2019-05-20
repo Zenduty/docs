@@ -263,3 +263,29 @@ $ systemctl restart nagios
 $ svcadm disable nrpe && svcadm enable nrpe
 $ /etc/rc.d/nrpe restart
 ```
+###RUNNING THE ZENDUTY - NAGIO INTEGRATION SOFTWARE
+
+**1. Downloading the software:**
+
+Download the software from https://github.com/Zenduty/zd-nagios.git
+
+**2. Installing the software:**
+
+Extract the source code.
+```
+$ tar xvf NagiosZendutyIntegration.tar.gz
+$ cd NagiosZendutyIntegration.tar.gz
+```
+**3. Start Nagios Core:**
+
+Start Nagios core using the same command used to restart it in the previous sections, replacing “restart” with “start”.
+
+**4. Start the Zenduty Integration Software:**
+
+Run the executable file to begin monitoring it. The webhook URL with your integration key must be passed as a parameter, as shown below. Replace the URL below with your own.
+
+```
+$ ./zenduty https://www.zenduty.com/api/integration/nagios/49152724-ec1a-475c-91b5-18bf8e390d93/
+
+```
+And that’s it! You’re system is now being monitored by Nagios and any alerts will be communicated to your zenduty account.

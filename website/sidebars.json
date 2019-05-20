@@ -139,6 +139,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["Librato"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["LogDNA"]
       },
       {
@@ -171,7 +175,15 @@
       },
       {
         "type": "subcategory",
+        "ids": ["Papertrail"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["Pingdom"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Pingometer"]
       },
       {
         "type": "subcategory",
