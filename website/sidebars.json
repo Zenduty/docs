@@ -123,6 +123,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["HostedGraphite"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["Idera"]
       },
       {
@@ -147,6 +151,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["Nagios"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["NewRelic"]
       },
       {
@@ -156,6 +164,10 @@
       {
         "type": "subcategory",
         "ids": ["OpsDash"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Panopta"]
       },
       {
         "type": "subcategory",
@@ -179,6 +191,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["Scout"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["Sentry"]
       },
       {
@@ -192,6 +208,10 @@
       {
         "type": "subcategory",
         "ids": ["Splunk"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["SplunkLegacy"]
       },
       {
         "type": "subcategory",
