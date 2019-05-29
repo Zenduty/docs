@@ -147,7 +147,15 @@
       },
       {
         "type": "subcategory",
+        "ids": ["Logenteries"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["Loggly"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Logzio"]
       },
       {
         "type": "subcategory",
