@@ -2,7 +2,7 @@
 id: Humio
 title: Humio
 ---
-For real time management, monitoring and analysis of your logs and metrics use Homio's services. To integrate Humio with Zenduty, complete the following steps:
+Humio is a log management software, providing real-time, instant monitoring, analysis, and visibility of log data. To integrate Humio with Zenduty, complete the following steps:
 
 ## In Zenduty:
 1. To add a new Humio integration, go to "Teams" on Zenduty and click on the "Manage" button corresponding to the team you want to add the integration to.
