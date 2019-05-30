@@ -23,6 +23,7 @@ Integrations on Zenduty:
 * [Healthchecks.io](Healthchecks.md)
 * [Honeybadger](Honeybadger.md)
 * [Hosted Graphite](HostedGraphite.md)
+* [Humio](Humio.md)
 * [IDERA Copperegg](Idera.md)
 * [Jenkins](Jenkins.md)
 * [Kayako](Kayako.md)

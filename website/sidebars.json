@@ -127,6 +127,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["Humio"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["Idera"]
       },
       {
