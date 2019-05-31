@@ -28,6 +28,7 @@ Integrations on Zenduty:
 * [Jenkins](Jenkins.md)
 * [Kayako](Kayako.md)
 * [Librato](Librato.md)
+* [Lightstep](Lightstep.md)
 * [LogDNA](LogDNA.md)
 * [Logenteries](Logenteries.md)
 * [Loggly](Loggly.md)

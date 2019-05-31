@@ -147,6 +147,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["Lightstep"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["LogDNA"]
       },
       {
