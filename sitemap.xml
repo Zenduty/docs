@@ -25,6 +25,7 @@
 <url> <loc>http://docs.zenduty.com/docs/Healthchecks</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Healthchecks" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Honeybadger</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Honeybadger" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/HostedGraphite</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/HostedGraphite" /> </url>
+<url> <loc>http://docs.zenduty.com/docs/Humio</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Humio" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Idera</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Idera" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Incidents</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Incidents" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Integrations</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Integrations" /> </url>
@@ -32,6 +33,7 @@
 <url> <loc>http://docs.zenduty.com/docs/Jenkins</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Jenkins" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Kayako</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Kayako" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Librato</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Librato" /> </url>
+<url> <loc>http://docs.zenduty.com/docs/Lightstep</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Lightstep" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/LogDNA</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/LogDNA" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Logenteries</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Logenteries" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Loggly</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Loggly" /> </url>
