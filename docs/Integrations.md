@@ -7,6 +7,7 @@ Integrations allow you to connect external apps to your service. A service can h
 Integrations on Zenduty:
 * [Email](Email.md)
 * [AppBeat](AppBeat.md)
+* [AppOptics](AppOptics.md)
 * [Atatus](Atatus.md)
 * [AWS CloudWatch](Cloudwatch.md)
 * [Bitbucket](Bitbucket.md)
