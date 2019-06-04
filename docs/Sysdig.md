@@ -2,7 +2,7 @@
 id: Sysdig
 title: Sysdig
 ---
-To avail a unified approach to cloud-native visibility and security with Kubernetes, Prometheus and Falco support with Sysdig's software services.
+Sysdig is the first unified approach to cloud-native visibility and security with Kubernetes, Prometheus, and Falco support.
 To integrate Sysdig with Zenduty, complete the following steps:
 
 ## In Zenduty:

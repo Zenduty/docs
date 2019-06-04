@@ -28,7 +28,7 @@ Appopotics helps you monitor applications, infrastructure, and servers in one pl
 
 ![](/img/Integrations/AppOptics/2.png) 
 
-9. the copied URL in the field and fill in the details. 
+9. Paste the copied URL in the field and fill in the details. 
 
 ![](/img/Integrations/AppOptics/3.png) 
 
