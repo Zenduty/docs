@@ -1,0 +1,44 @@
+---
+id: Sysdig
+title: Sysdig
+---
+To avail a unified approach to cloud-native visibility and security with Kubernetes, Prometheus and Falco support with Sysdig's software services.
+To integrate Sysdig with Zenduty, complete the following steps:
+
+## In Zenduty:
+
+1. To add a new Sysdig integration, go to "Teams" on Zenduty and click on the "Manage" button corresponding to the team you want to add the integration to.
+
+2. Next, go to "Services" and click on the "Manage" button correspoding to the relevant Service.
+
+3. Go to "Integrations" and then "Add New Integration". Give it a name and select the application "Sysdig" from the dropdown menu.
+
+4. Go to "Configure" under your integrations and copy the webhooks URL generated. 
+
+## In Sysdig:
+
+5. Sign into Sysdig.
+
+6. Then Add a new "HOST" as per your requirements.
+
+![](/img/Integrations/Sysdig/1.png)
+
+7. Go to settings and add a "NOTIFICATION CHANNEL".
+
+![](/img/Integrations/Sysdig/2.png)
+
+8. Then paste the copied link in the "URL" field and fill in the other details. 
+
+![](/img/Integrations/Sysdig/3.png)
+
+9. Go to "Alerts" and select "Create alert" and add the required alert by filling in the required details.
+
+![](/img/Integrations/Sysdig/4.png)
+
+![](/img/Integrations/Sysdig/5.png)
+
+![](/img/Integrations/Sysdig/6.png)
+
+10. Now monitor the newly added alerts.
+
+11. Sysdig is now integrated. 

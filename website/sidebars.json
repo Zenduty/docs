@@ -259,6 +259,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["Sysdig"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["Uptime"]
       },
       {
