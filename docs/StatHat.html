@@ -1,0 +1,113 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>StatHat · Zenduty - General Documentation</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;p&gt;StatHat is a custom stat tracking tool. To integrate StatHat with Zenduty, complete the following steps:&lt;/p&gt;
+"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="StatHat · Zenduty - General Documentation"/><meta property="og:type" content="website"/><meta property="og:url" content="http://docs.zenduty.com/index.html"/><meta property="og:description" content="&lt;p&gt;StatHat is a custom stat tracking tool. To integrate StatHat with Zenduty, complete the following steps:&lt;/p&gt;
+"/><meta property="og:image" content="http://docs.zenduty.com/img/zenduty.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="http://docs.zenduty.com/img/zenduty.png"/><link rel="shortcut icon" href="/img/favicon.png"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-135991214-1"></script><script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments); }
+              gtag('js', new Date());
+              gtag('config', 'UA-135991214-1');
+            </script><script type="text/javascript" src="https://wchat.freshchat.com/js/widget.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/zenduty.svg" alt="Zenduty - General Documentation"/><h2 class="headerTitleWithLogo">Zenduty - General Documentation</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docs/Introduction" target="_self"></a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Integrations</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Getting Started</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/Introduction">Introduction to Zenduty</a></li><li class="navListItem"><a class="navItem" href="/docs/Teams">Zenduty Teams</a></li><li class="navListItem"><a class="navItem" href="/docs/Users">Team Members</a></li><li class="navListItem"><a class="navItem" href="/docs/ContactNotification">Contact Methods and Notification Policies</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Escalation and Schedules</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/EscalationPolicies">Escalation Policies</a></li><li class="navListItem"><a class="navItem" href="/docs/Schedules">Schedules Overview</a></li><li class="navListItem"><a class="navItem" href="/docs/SchedulesEx">Schedules Examples</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Services and Integrations</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/Services">Services</a></li><li class="navListItem"><a class="navItem" href="/docs/Integrations">Integrations</a></li><li class="navListItem"><a class="navItem" href="/docs/Context">Context Integrations</a></li><li class="navListItem"><a class="navItem" href="/docs/AlertRules">Alert Rules</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Incidents</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/Incidents">Incidents</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Analytics</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/Analytics">Analytics</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Integrations</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/Email">Email</a></li><li class="navListItem"><a class="navItem" href="/docs/AppBeat">AppBeat</a></li><li class="navListItem"><a class="navItem" href="/docs/AppOptics">AppOptics</a></li><li class="navListItem"><a class="navItem" href="/docs/Atatus">Atatus</a></li><li class="navListItem"><a class="navItem" href="/docs/Cloudwatch">AWS Cloudwatch</a></li><li class="navListItem"><a class="navItem" href="/docs/Bitbucket">Bitbucket</a></li><li class="navListItem"><a class="navItem" href="/docs/Bugsnag">Bugsnag</a></li><li class="navListItem"><a class="navItem" href="/docs/Checkly">Checkly</a></li><li class="navListItem"><a class="navItem" href="/docs/Fabric">Crashlytics Fabric</a></li><li class="navListItem"><a class="navItem" href="/docs/Datadog">Datadog</a></li><li class="navListItem"><a class="navItem" href="/docs/Dynatrace">Dynatrace</a></li><li class="navListItem"><a class="navItem" href="/docs/FirebaseCrashlytics">Firebase Crashlytics</a></li><li class="navListItem"><a class="navItem" href="/docs/Freshdesk">Freshdesk</a></li><li class="navListItem"><a class="navItem" href="/docs/Github">Github</a></li><li class="navListItem"><a class="navItem" href="/docs/Grafana">Grafana</a></li><li class="navListItem"><a class="navItem" href="/docs/Graylog">Graylog</a></li><li class="navListItem"><a class="navItem" href="/docs/Healthchecks">Healthchecks.io</a></li><li class="navListItem"><a class="navItem" href="/docs/Honeybadger">Honeybadger</a></li><li class="navListItem"><a class="navItem" href="/docs/HostedGraphite">Hosted Graphite</a></li><li class="navListItem"><a class="navItem" href="/docs/Humio">Humio</a></li><li class="navListItem"><a class="navItem" href="/docs/Idera">IDERA (Copperegg)</a></li><li class="navListItem"><a class="navItem" href="/docs/Jenkins">Jenkins</a></li><li class="navListItem"><a class="navItem" href="/docs/Kayako">Kayako</a></li><li class="navListItem"><a class="navItem" href="/docs/Librato">Librato</a></li><li class="navListItem"><a class="navItem" href="/docs/Lightstep">Lightstep</a></li><li class="navListItem"><a class="navItem" href="/docs/LogDNA">LogDNA</a></li><li class="navListItem"><a class="navItem" href="/docs/Logenteries">Logentries</a></li><li class="navListItem"><a class="navItem" href="/docs/Loggly">Loggly</a></li><li class="navListItem"><a class="navItem" href="/docs/Logzio">Logzio</a></li><li class="navListItem"><a class="navItem" href="/docs/Monitis">Monitis</a></li><li class="navListItem"><a class="navItem" href="/docs/Nagios">Nagios</a></li><li class="navListItem"><a class="navItem" href="/docs/NewRelic">New Relic</a></li><li class="navListItem"><a class="navItem" href="/docs/NodePing">NodePing</a></li><li class="navListItem"><a class="navItem" href="/docs/OpsDash">OpsDash</a></li><li class="navListItem"><a class="navItem" href="/docs/Panopta">Panopta</a></li><li class="navListItem"><a class="navItem" href="/docs/Papertrail">Papertrail</a></li><li class="navListItem"><a class="navItem" href="/docs/Pingdom">Pingdom</a></li><li class="navListItem"><a class="navItem" href="/docs/Pingometer">Pingometer</a></li><li class="navListItem"><a class="navItem" href="/docs/Prometheus">Prometheus</a></li><li class="navListItem"><a class="navItem" href="/docs/Raygun">Raygun</a></li><li class="navListItem"><a class="navItem" href="/docs/Rollbar">Rollbar</a></li><li class="navListItem"><a class="navItem" href="/docs/Runscope">Runscope</a></li><li class="navListItem"><a class="navItem" href="/docs/Scout">Scout</a></li><li class="navListItem"><a class="navItem" href="/docs/Sentry">Sentry</a></li><li class="navListItem"><a class="navItem" href="/docs/SignalFX">SignalFX</a></li><li class="navListItem"><a class="navItem" href="/docs/Site24x7">Site24x7</a></li><li class="navListItem"><a class="navItem" href="/docs/Splunk">Splunk</a></li><li class="navListItem"><a class="navItem" href="/docs/SplunkLegacy">Splunk Legacy</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/StatHat">StatHat</a></li><li class="navListItem"><a class="navItem" href="/docs/StatusCake">StatusCake</a></li><li class="navListItem"><a class="navItem" href="/docs/StatusPage">StatusPage</a></li><li class="navListItem"><a class="navItem" href="/docs/Sumologic">Sumo Logic</a></li><li class="navListItem"><a class="navItem" href="/docs/Sysdig">Sysdig</a></li><li class="navListItem"><a class="navItem" href="/docs/ThousandEyes">ThousandEyes</a></li><li class="navListItem"><a class="navItem" href="/docs/Uptime">Uptime</a></li><li class="navListItem"><a class="navItem" href="/docs/UptimeRobot">UptimeRobot</a></li><li class="navListItem"><a class="navItem" href="/docs/Uptrends">Uptrends</a></li><li class="navListItem"><a class="navItem" href="/docs/Zendesk">Zendesk</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">StatHat</h1></header><article><div><span><p>StatHat is a custom stat tracking tool. To integrate StatHat with Zenduty, complete the following steps:</p>
+<h2><a class="anchor" aria-hidden="true" id="in-zenduty"></a><a href="#in-zenduty" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>In Zenduty:</h2>
+<ol>
+<li><p>To add a new StatHat integration, go to &quot;Teams&quot; on Zenduty and click on the &quot;Manage&quot; button corresponding to the team you want to add the integration to.</p></li>
+<li><p>Next, go to &quot;Services&quot; and click on the &quot;Manage&quot; button correspoding to the relevant Service.</p></li>
+<li><p>Go to &quot;Integrations&quot; and then &quot;Add New Integration&quot;. Give it a name and select the application &quot;StatHat&quot; from the dropdown menu.</p></li>
+<li><p>Go to &quot;Configure&quot; under your integrations and copy the webhooks URL generated.</p></li>
+</ol>
+<h2><a class="anchor" aria-hidden="true" id="in-stathat"></a><a href="#in-stathat" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>In StatHat:</h2>
+<ol start="5">
+<li><p>Log into StatHat.</p></li>
+<li><p>Choose a language for documentation to create a &quot;Stat&quot;.</p></li>
+</ol>
+<p><img src="/img/Integrations/StatHat/1.png" alt=""></p>
+<ol start="7">
+<li>Then search for your Stat in the &quot;search bar&quot;.</li>
+</ol>
+<p><img src="/img/Integrations/StatHat/2.png" alt=""></p>
+<ol start="8">
+<li>Now go to -&gt; &quot;Settings&quot; -&gt; and manage your &quot;Alert destinations&quot;.</li>
+</ol>
+<p><img src="/img/Integrations/StatHat/3.png" alt=""></p>
+<ol start="9">
+<li>Then go to -&gt; &quot;Webhooks&quot; and create a new &quot;Webhook&quot;.</li>
+</ol>
+<p><img src="/img/Integrations/StatHat/4.png" alt=""></p>
+<ol start="10">
+<li>Now paste the copied link in the &quot;URL&quot; and then click on &quot;Add&quot;.</li>
+</ol>
+<p><img src="/img/Integrations/StatHat/5.png" alt=""></p>
+<ol start="11">
+<li>Now go to your stat and go to &quot;Alerts&quot; and add a &quot;New Alert&quot;.</li>
+</ol>
+<p><img src="/img/Integrations/StatHat/6.png" alt=""></p>
+<ol start="12">
+<li>StatHat is now integrated.</li>
+</ol>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/SplunkLegacy"><span class="arrow-prev">← </span><span>Splunk Legacy</span></a><a class="docs-next button" href="/docs/StatusCake"><span class="function-name-prevnext">StatusCake</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#in-zenduty">In Zenduty:</a></li><li><a href="#in-stathat">In StatHat:</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="copyright">Copyright © 2019 Zenduty Created by YellowAnt</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: '00808d264b6611cda3ba4754f7005d69',
+                indexName: 'zenduty',
+                inputSelector: '#search_input_react'
+              });
+            </script></body></html>
