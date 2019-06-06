@@ -53,6 +53,7 @@ Integrations on Zenduty:
 * [Site24x7](Site24x7.md)
 * [Splunk](Splunk.md)
 * [Splunk Legacy](SplunkLegacy.md)
+* [StatHat](StatHat.md)
 * [StatusCake](StatusCake.md)
 * [StatusHub](StatusHub.md)
 * [StatusPage](StatusPage.md)

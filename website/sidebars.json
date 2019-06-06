@@ -247,6 +247,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["StatHat"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["StatusCake"]
       },
       {
