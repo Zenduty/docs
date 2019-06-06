@@ -59,6 +59,7 @@ Integrations on Zenduty:
 * [StatusPage](StatusPage.md)
 * [Sumologic](Sumologic.md)
 * [Sysdig](Sysdig.md)
+* [ThousandEyes](ThousandEyes.md)
 * [Uptime](Uptime.md)
 * [UptimeRobot](UptimeRobot.md)
 * [Uptrends](Uptrends.md)

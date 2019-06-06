@@ -267,6 +267,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["ThousandEyes"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["Uptime"]
       },
       {

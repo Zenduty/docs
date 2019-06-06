@@ -2,7 +2,7 @@
 id: StatHat
 title: StatHat 
 ---
- To integrate StatHat with Zenduty, complete the following steps:
+StatHat is a custom stat tracking tool. To integrate StatHat with Zenduty, complete the following steps:
 
 ## In Zenduty:
 
