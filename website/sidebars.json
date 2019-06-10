@@ -281,7 +281,10 @@
         "type": "subcategory",
         "ids": ["Uptrends"]
       },
-
+      {
+        "type": "subcategory",
+        "ids": ["Wormly"]
+      },
       {
         "type": "subcategory",
         "ids": ["Zendesk"]
