@@ -283,6 +283,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["WaveFront"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["Wormly"]
       },
       {

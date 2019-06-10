@@ -63,5 +63,6 @@ Integrations on Zenduty:
 * [Uptime](Uptime.md)
 * [UptimeRobot](UptimeRobot.md)
 * [Uptrends](Uptrends.md)
+* [WaveFront](WaveFront.md)
 * [Wormly](Wormly.md)
 * [Zendesk](Zendesk.md)

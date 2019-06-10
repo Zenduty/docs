@@ -2,10 +2,7 @@
 id: WaveFront
 title: WaveFront
 ---
-
-WaveFront helps you monitor websites, emails, and web apps to get instant alerts. With the Zenduty integration, you will be able to receive context notifications about new code pushes, pull requests, issues and issue comments. New issues will trigger a new incident.
-
-To integrate WaveFront with Zenduty, complete the following steps:
+For cloud monitoring and analytics that reduces downtime and boosts performance use WaveFront's services. To integrate WaveFront with Zenduty, complete the following steps:
 
 ## In Zenduty:
 
@@ -15,24 +12,26 @@ To integrate WaveFront with Zenduty, complete the following steps:
 
 3. Go to "Integrations" and then "Add New Integration". Give it a name and select the application "WaveFront" from the dropdown menu.
 
-4. Go to "Configure" under your integrations and copy the webhooks URL generated.
+4. Go to "Configure" under your integrations and copy the webhooks URL generated. 
 
 ## In WaveFront:
 
-5. Sign up to the wavefront.
+5. Log into WaveFront.
 
-6. Go to "Agent" to set up your monitoring agent. e.g. your operating system etc.
+6. Now add a new "HOST" as per your requirements. 
 
-7. The next step is to create an alert. You can follow the steps below, or checkout WaveFront's [tutorial videos](https://docs.wavefront.com/videos_alerts.html).
+![](/img/Integrations/WaveFront/1.png)
 
-	a.) Go to "Dashboard" and select "your monitoring agent" to see the visualization of metrics value.
+7. Then go to settings and add "Alert Target" and paste the copied link in the URL field.
 
-	b.) Inside the Dashboard, click on one of the metrics for which you would like to create or fire an alert.
+![](/img/Integrations/WaveFront/2.png)
 
-	c.) You will be redirected to the respective metrics' page (or usage graph), on that page under "used_percent" click on "create alert".
+![](/img/Integrations/WaveFront/3.png)
 
-8. Now configure your django files according to obtained JSON or any other file format.
-9. Run "python manage.py runserver" inside your terminal.
-. Now check for "200 OK" message in your Alert target, If you're obtaining "200 OK" then you have completed the integration of wavefront to zenduty.
+8. Now select a "Metric" from WaveFront's dashboard and "Create and add the alert" by filling in all the required details.
 
+![](/img/Integrations/WaveFront/4.png)
 
+![](/img/Integrations/WaveFront/5.png)
+
+9. WaveFront is now integrated
