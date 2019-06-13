@@ -65,4 +65,5 @@ Integrations on Zenduty:
 * [Uptrends](Uptrends.md)
 * [WaveFront](WaveFront.md)
 * [Wormly](Wormly.md)
+* [Zabbix](Zabbix.md)
 * [Zendesk](Zendesk.md)

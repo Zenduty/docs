@@ -291,6 +291,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["Zabbix"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["Zendesk"]
       }
     ]  
