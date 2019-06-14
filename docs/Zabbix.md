@@ -14,7 +14,7 @@ For monitoring IT components, like servers, networks, virtual machines and cloud
 
 4. Go to "Configure" under your integrations and copy the API KEY generated.
 
-## In Wavefront:
+## In Zabbix:
 
 5. Clone [this Repository](https://github.com/Zenduty/zabbix-zenduty-script.git)
 
