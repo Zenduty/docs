@@ -25,6 +25,7 @@ Integrations on Zenduty:
 * [Honeybadger](Honeybadger.md)
 * [Hosted Graphite](HostedGraphite.md)
 * [Humio](Humio.md)
+* [Icinga2](Icinga2.md)
 * [IDERA Copperegg](Idera.md)
 * [Jenkins](Jenkins.md)
 * [Kayako](Kayako.md)
