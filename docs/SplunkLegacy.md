@@ -31,5 +31,4 @@ https://github.com/Zenduty/splunk_legacy_scripts.git
 
 ![](/img/Integrations/SplunkLegacy/3.png)
 
-
 11. Splunk Legacy is now integrated.

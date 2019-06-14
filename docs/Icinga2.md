@@ -3,7 +3,7 @@ id: Icinga2
 title: Icinga2
 ---
 
-To integrate Icinga2 with Zenduty, complete the following steps:
+Icinga 2 is an open source monitoring system which checks the availability of your network resources, notifies users of outages and generates performance data for reporting. Scalable and extensible, Icinga 2 can monitor large, complex environments across multiple locations. To integrate Icinga2 with Zenduty, complete the following steps:
 
 ## In Zenduty:
 
