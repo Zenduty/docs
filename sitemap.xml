@@ -20,6 +20,7 @@
 <url> <loc>http://docs.zenduty.com/docs/Fabric</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Fabric" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/FirebaseCrashlytics</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/FirebaseCrashlytics" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Freshdesk</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Freshdesk" /> </url>
+<url> <loc>http://docs.zenduty.com/docs/GhostInspector</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/GhostInspector" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Github</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Github" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Grafana</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Grafana" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Graylog</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Graylog" /> </url>
