@@ -18,6 +18,7 @@ Integrations on Zenduty:
 * [Dynatrace](Dynatrace.md)
 * [Firebase Crashlytics](FirebaseCrashlytics.md)
 * [Freshdesk](Freshdesk.md)
+* [GhostInspector](GhostInspector.md)
 * [Github](Github.md)
 * [Grafana](Grafana.md)
 * [Graylog](Graylog.md)
