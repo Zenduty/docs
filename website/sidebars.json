@@ -143,6 +143,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["IOPipe"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["Jenkins"]
       },
       {
@@ -172,6 +176,10 @@
       {
         "type": "subcategory",
         "ids": ["Logzio"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Metricly"]
       },
       {
         "type": "subcategory",
