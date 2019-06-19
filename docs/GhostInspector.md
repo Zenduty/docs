@@ -8,7 +8,9 @@ Ghost inspector helps you build or record automated website tests in your browse
 2. Next, go to "Services" and click on the "Manage" button correspoding to the relevant Service.
 3. Go to "Integrations" and then "Add New Integration". Give it a name and select the application "Ghost Inspector" from the dropdown menu.
 4. Go to "Configure" under your integrations and copy the webhooks URL generated. 
+
 ## In Ghost Inspector:
+
 5. Log into Ghost Inspector.
 ![](/img/Integrations/GhostInspector/1.png)
 6. Now create a "Test". 
