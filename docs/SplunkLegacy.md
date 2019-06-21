@@ -11,7 +11,9 @@ Use legacy mode to temporarily work around issues introduced by the new integrat
 4. Go to "Configure" under your integrations and copy the API KEY generated.
 
 ## In Splunk:
-5. Go to "$SPLUNK_HOME/bin/" and open "setSplunkEnv" file and create one variable "$ZENDUTY_KEY" and the value of this variable will be API KEY that you have copied earlier. So it will look like "$ZENDUTY_KEY= < API KEY >".
+5. Go to "$SPLUNK_HOME/bin/" and open "setSplunkEnv" file and create one variable "$ZENDUTY_KEY" and the value of this variable will be API KEY that you have copied earlier. So it will look like 
+
+	```export $ZENDUTY_KEY= < API KEY >```.
 
 6. Clone [this](https://github.com/Zenduty/splunk_legacy_scripts.git) Repository: 
 
