@@ -127,6 +127,11 @@
       },
       {
         "type": "subcategory",
+        "ids": ["HetrixTools"]
+      },
+
+      {
+        "type": "subcategory",
         "ids": ["Honeybadger"]
       },
       {

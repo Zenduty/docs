@@ -23,6 +23,7 @@ Integrations on Zenduty:
 * [Grafana](Grafana.md)
 * [Graylog](Graylog.md)
 * [Healthchecks.io](Healthchecks.md)
+* [HetrixTools](HetrixTools.md)
 * [Honeybadger](Honeybadger.md)
 * [Hosted Graphite](HostedGraphite.md)
 * [Humio](Humio.md)
