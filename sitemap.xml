@@ -61,6 +61,7 @@
 <url> <loc>http://docs.zenduty.com/docs/SchedulesEx</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/SchedulesEx" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Scout</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Scout" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Sentry</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Sentry" /> </url>
+<url> <loc>http://docs.zenduty.com/docs/ServerDensity</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/ServerDensity" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Services</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Services" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/SignalFX</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/SignalFX" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Site24x7</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Site24x7" /> </url>
