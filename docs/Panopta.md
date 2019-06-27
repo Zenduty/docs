@@ -21,14 +21,14 @@ Panopta helps you monitor your servers, your on-premise network, the global clou
 
 ![](/img/Integrations/Panopta/2.png)
 
-8.	Go to Monitoring > Alert Timeline. Add a new timeline. Add a new event into this timeline. Fill the necessary details and select the integration that you have created earlier. Click add.
+8. Go to Monitoring > Alert Timeline. Add a new timeline. Add a new event into this timeline. Fill the necessary details and select the integration that you have created earlier. Click add.
 
 ![](/img/Integrations/Panopta/3.png)
 
 ![](/img/Integrations/Panopta/4.png)
 
-8.	Go to "instances" and configure the matrices that you want to monitor. Give threshold and select the severity and in notify with timeline select the alert timeline.
+8. Go to "instances" and configure the matrices that you want to monitor. Give threshold and select the severity and in notify with timeline select the alert timeline.
 
 ![](/img/Integrations/Panopta/5.png)
 
-9.	Panopta is now integrated with Zenduty.
+9. Panopta is now integrated with Zenduty.

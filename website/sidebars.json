@@ -252,6 +252,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["ServerDensity"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["SignalFX"]
       },
       {

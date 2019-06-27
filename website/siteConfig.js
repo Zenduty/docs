@@ -14,7 +14,7 @@ const users = [
     caption: 'Intelligent Incident Management Platform for High Performing Teams',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: 'img/favicon.png',
+    image: 'img/favicon/favicon.png',
     infoLink: 'www.zenduty.com',
     pinned: true,
   },
@@ -51,9 +51,9 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.png',
-  footerIcon: 'img/favicon.png',
-  favicon: 'img/favicon.png',
+  headerIcon: 'img/favicon/favicon.png',
+  footerIcon: 'img/favicon/favicon.png',
+  favicon: 'img/favicon/favicon.png',
 
   /* Colors for website */
   colors: {
