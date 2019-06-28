@@ -50,7 +50,16 @@
         "ids": ["AlertRules"]
       }
     ],
-    "Incidents": ["Incidents"],
+    "Incidents": [
+      {
+        "type": "subcategory",
+        "ids": ["Incidents"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Responders"]
+      }
+    ],
     "Analytics": ["Analytics"],
     "Integrations":[
       {
