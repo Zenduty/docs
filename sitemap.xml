@@ -55,6 +55,7 @@
 <url> <loc>http://docs.zenduty.com/docs/Pingometer</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Pingometer" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Prometheus</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Prometheus" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Raygun</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Raygun" /> </url>
+<url> <loc>http://docs.zenduty.com/docs/Responders</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Responders" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Rollbar</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Rollbar" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Runscope</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Runscope" /> </url>
 <url> <loc>http://docs.zenduty.com/docs/Schedules</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.zenduty.com/docs/Schedules" /> </url>
