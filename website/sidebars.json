@@ -189,15 +189,15 @@
       },
       {
         "type": "subcategory",
-        "ids": ["Mackerel"]
-      },
-      {
-        "type": "subcategory",
         "ids": ["Loggly"]
       },
       {
         "type": "subcategory",
         "ids": ["Logzio"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Mackerel"]
       },
       {
         "type": "subcategory",
