@@ -38,6 +38,7 @@ Integrations on Zenduty:
 * [Logenteries](Logenteries.md)
 * [Loggly](Loggly.md)
 * [Logzio](Logzio.md)
+* [Mackerel](Mackerel.md)
 * [Metricly](Metricly.md)
 * [Monitis](Monitis.md)
 * [Nagios](Nagios.md)

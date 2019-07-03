@@ -189,6 +189,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["Mackerel"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["Loggly"]
       },
       {
