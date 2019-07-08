@@ -269,6 +269,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["Slack"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["SignalFX"]
       },
       {

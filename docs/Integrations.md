@@ -58,6 +58,7 @@ Integrations on Zenduty:
 * [Server Density](ServerDensity.md)
 * [SignalFX](SignalFX.md)
 * [Site24x7](Site24x7.md)
+* [Slack](Slack.md)
 * [Splunk](Splunk.md)
 * [Splunk Legacy](SplunkLegacy.md)
 * [StatHat](StatHat.md)
