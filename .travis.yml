@@ -1,4 +1,5 @@
 language: node_js
+install: 
 node_js:
   - '8'
 branches:
@@ -11,4 +12,5 @@ script:
   - git config --global user.email "${GH_EMAIL}"
   - echo "machine github.com login ${GH_NAME} password ${GH_TOKEN}" > ~/.netrc
   - cd website
-  - travis_wait 30 yarn install && GIT_USER="${GH_NAME}" yarn run publish-gh-pages
+  - yarn install
+  - travis_wait 30 GIT_USER="${GH_NAME}" yarn run publish-gh-pages
