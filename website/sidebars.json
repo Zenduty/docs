@@ -261,6 +261,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["Sematext"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["Sentry"]
       },
       {

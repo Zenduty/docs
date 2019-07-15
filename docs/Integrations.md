@@ -54,6 +54,7 @@ Integrations on Zenduty:
 * [Rollbar](Rollbar.md)
 * [Runscope](Runscope.md)
 * [Scout](Scout.md)
+* [Sematext](Sematext.md)
 * [Sentry](Sentry.md)
 * [Server Density](ServerDensity.md)
 * [SignalFX](SignalFX.md)
