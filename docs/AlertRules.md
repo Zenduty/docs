@@ -1,4 +1,5 @@
----
+
+++---
 id: AlertRules
 title: Alert Rules
 ---
@@ -22,6 +23,13 @@ Alert rules let you create complex conditions for an integration, by matching fi
 5. All saved Alert Rules associated with a particular integration will show up in the Alert Rules tab in the configuration settings of the integration. 
 
 ![](/img/alert_4.png)
+
+## JSON Path Search
+You can assign payload with specific rules to your alerts. Follow the [JSON path syntax](https://restfulapi.net/json-jsonpath/) while describing these rules
+
+![](/img/alert_5.png)
+
+![](/img/alert_6.png)
 
 ## Editing an Alert Rule
 Simply click the "view" button next to the rule you want to edit.
