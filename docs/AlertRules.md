@@ -1,5 +1,4 @@
-
-++---
+---
 id: AlertRules
 title: Alert Rules
 ---

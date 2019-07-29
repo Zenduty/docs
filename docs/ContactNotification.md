@@ -23,6 +23,11 @@ Use this section to edit password of a member
 Here, you can add, edit or remove contact information like email, SMS and phone for a member. 
 ![](/img/members_5.png)
 
+## Forwarding Rules
+Here you can set automatic forwarding rules for a respondent in case they are on an unplanned/planned leave
+
+![](/img/members_7.png)
+
 ### Edit email information
 
 To add an email, click on "Add Email" and fill in the new name and email address. Click the "Create" button to confirm.
@@ -44,6 +49,6 @@ This section allows you to add and delete notification rules for a member.
 
 To create a notification rule, click on the "Create Notification Rule" button. 
 Fill in the number of minutes to wait and the channel for notification and confirm.
-![](/img/members_5.png)
+![](/img/members_6.png)
 
 To delete a notification rule, click on the 'X' next to the rule and comfirm.
