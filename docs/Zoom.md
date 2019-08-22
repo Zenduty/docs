@@ -2,7 +2,7 @@
 id: Zoom
 title: Zoom
 ---
- Zoom offers communications software that combines video conferencing, online meetings, chat, and mobile collaboration.
+Zoom offers communications software that combines video conferencing, online meetings, chat, and mobile collaboration.
 
 With the Zenduty integration, you will be able to create meetings links for the incidents that were created.
 
@@ -19,7 +19,9 @@ To integrate Zoom with Zenduty, complete the following steps:
 4. Go to "Configure" under your Outgoing Integrations.
 
 5. Insert the Email to which your Zoom Account is linked to (For verification Purposes)
+
 ![](/img/Integrations/Zoom/1.png)
+
 6. Next, Click "Integrate Zoom" to proceed with OAuth integration.
 
 ## In Zoom:
