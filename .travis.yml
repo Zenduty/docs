@@ -16,3 +16,5 @@ script:
   - cd website
   - yarn install
   - travis_wait 30 yarn run publish-gh-pages
+notifications:
+  slack: yellowant:4gz5ahsqMsFPpWuJafCQ6PAP
