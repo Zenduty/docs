@@ -317,6 +317,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["StatusPage2"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["Sumologic"]
       },
       {
