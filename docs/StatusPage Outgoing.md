@@ -27,6 +27,8 @@ StatusPage.io is the best way for web infrastructure, developer API, and SaaS co
 
 8. Then, write the description of the incident (Which will be common to all incidents incited by this integration.)
 
+![](/img/Integrations/Statuspage/7.png)
+
 9. Copy the Webhook URL (For 2-Way integration) and Save the integration.
 
 

@@ -1,6 +1,6 @@
 ---
 id: Conf
-title: Generic Conference Bridge
+title: Conference Bridge
 ---
 To create incidents with Zenduty that have a Generic Conference Bridge added to it as a part of the Comms :
 
