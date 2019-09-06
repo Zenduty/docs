@@ -40,6 +40,7 @@ Integrations on Zenduty:
 * [Logzio](Logzio.md)
 * [Mackerel](Mackerel.md)
 * [Metricly](Metricly.md)
+* [Microsoft Teams](MicrosoftTeams.md)
 * [Monitis](Monitis.md)
 * [Nagios](Nagios.md)
 * [New Relic](NewRelic.md)

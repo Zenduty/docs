@@ -217,6 +217,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["MicrosoftTeams"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["Monitis"]
       },
       {
