@@ -69,41 +69,49 @@
 </ol>
 <h2><a class="anchor" aria-hidden="true" id="in-freshdesk"></a><a href="#in-freshdesk" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>In Freshdesk:</h2>
 <ol start="5">
-<li>Log into Freshdesk. Click on the &quot;Admin&quot; button and select &quot;Dispatch’r&quot; under &quot;Helpdesk Productivity Settings&quot;.</li>
+<li>Log into Freshdesk. Click on the &quot;Admin&quot; button and select &quot;Automations&quot; under &quot;Helpdesk Productivity Settings&quot;.</li>
 </ol>
 <p><img src="/img/Integrations/Freshdesk/1.png" alt=""></p>
 <ol start="6">
-<li><p>Select &quot;New Rule&quot; and pick &quot;Rule Name&quot; and &quot;Description&quot;.</p></li>
-<li><p>Set Conditions as:</p>
-<p><strong>Type Is Incident</strong></p></li>
+<li>Click on the &quot;Create the first rule&quot; button.</li>
 </ol>
 <p><img src="/img/Integrations/Freshdesk/2.png" alt=""></p>
+<ol start="7">
+<li><p>Select &quot;New Rule&quot; and pick &quot;Rule Name&quot; and &quot;Description&quot;. Set Conditions as:</p>
+<p><strong>Type Is Incident</strong></p></li>
+</ol>
+<p><img src="/img/Integrations/Freshdesk/3.png" alt=""></p>
 <ol start="8">
 <li><p>Select &quot;Trigger Webhook&quot; from the Actions&quot;  dropdown, and set &quot;Request Type&quot; to &quot;POST&quot;.</p>
-<p>Under the &quot;Callback URL&quot;, paste the webhook url you copied earlier.</p>
+<p>Under the &quot;URL&quot;, paste the webhook url you copied earlier.</p>
 <p>Set the &quot;Encoding&quot; as &quot;JSON&quot; and content as &quot;Simple&quot;.</p>
 <p>Under &quot;Content&quot;, select the following fields- Ticket ID, Subject, Description, Status.</p></li>
 </ol>
 <p>This is shown in the screenshot below:</p>
-<p><img src="/img/Integrations/Freshdesk/3.png" alt=""></p>
+<p><img src="/img/Integrations/Freshdesk/4.png" alt=""></p>
 <ol start="9">
 <li><p>Save.</p></li>
-<li><p>Click on the &quot;Admin&quot; button on and select &quot;Observer&quot; under &quot;Helpdesk Productivity Settings&quot;.</p></li>
-</ol>
-<p><img src="/img/Integrations/Freshdesk/4.png" alt=""></p>
-<ol start="11">
-<li><p>Select &quot;New Rule&quot; and pick a &quot;Rule Name&quot; and &quot;Description&quot;.</p>
-<p>Set &quot;Action Performed By&quot; to &quot;Agent&quot; and an &quot;Event&quot;. For example, here we have picked:&quot;Status is Changed&quot; from &quot;Any Status&quot; to &quot;Any Status&quot;.</p></li>
+<li><p>From the same window, move to &quot;Ticket Updates&quot; sections and click on &quot;New Rule&quot; button.</p></li>
 </ol>
 <p><img src="/img/Integrations/Freshdesk/5.png" alt=""></p>
+<ol start="11">
+<li><p>Select &quot;New Rule&quot; and pick a &quot;Rule Name&quot; and &quot;Description&quot;.</p>
+<p>Set &quot;Action Performed By&quot; to &quot;Agent&quot; and an &quot;Event&quot;. For example, here we have picked:&quot;Status is Changed&quot; from &quot;Any Status&quot; to &quot;Any Status&quot; and so on depending upon the requirements.</p></li>
+</ol>
+<p><img src="/img/Integrations/Freshdesk/6.png" alt=""></p>
+<p><img src="/img/Integrations/Freshdesk/7.png" alt=""></p>
+<ol start="12">
+<li>In the &quot;On tickets with these properties&quot; section, set condition as &quot;Type Is&quot; and &quot;Incident&quot;.</li>
+</ol>
+<p><img src="/img/Integrations/Freshdesk/8.png" alt=""></p>
 <ol start="12">
 <li><p>Select &quot;Trigger Webhook&quot; from the &quot;Actions&quot; dropdown and set the &quot;Request Type&quot; to &quot;POST&quot;.</p>
-<p>Under the callback URL,paste the webhook link you copied earlier.</p>
+<p>In the URL textbox, paste the webhook link you copied earlier.</p>
 <p>Set the Encoding to &quot;JSON&quot; and Content to &quot;Simple&quot;.</p>
 <p>Under Content, Select the following fields- Ticket ID, Subject, Description, Status.</p></li>
 </ol>
 <p>This is shown in the screenshot below:</p>
-<p><img src="/img/Integrations/Freshdesk/6.png" alt=""></p>
+<p><img src="/img/Integrations/Freshdesk/9.png" alt=""></p>
 <ol start="13">
 <li>Save.</li>
 </ol>
