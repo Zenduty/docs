@@ -2,7 +2,7 @@
 id: MicrosoftTeams
 title: Microsoft Teams
 ---
-Microsoft Teams is a unified communications platform that combines pesistent workplace chat , video meeting, file storage and application integration. To intergrate Microsoft Teams with Zenduty, complete the following steps:
+Microsoft Teams is a unified communications platform that combines persistent workplace chat , video meeting, file storage and application integration. To intergrate Microsoft Teams with Zenduty, complete the following steps:
 
 ## In Microsft Teams:
 
