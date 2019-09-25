@@ -10,7 +10,7 @@ To view incident roles simply click on Incident Roles under Team
 
 #### Creating a Role
 
-To creat a role click Create Role, you can provide role title and include its description. You can also assign rank from 1-10 based on importance of the role.
+To create a role click Create Role, you can provide role title and description. You can also assign rank from 1-10 based on importance of the role.
 
 ![](/img/incidentroles_2.png)   
 
@@ -18,6 +18,10 @@ You can define several roles to assist your team members handle thier areas of e
 
 ![](/img/incidentroles_3.png)
 
-You can also view and make changes as per 
+You can also view and make changes as per your organizational upgrades.
 
-#### 
+#### Removing a role
+
+To remove a role simply click on Remove and Ok
+
+![](/img/incidentroles_4.png)

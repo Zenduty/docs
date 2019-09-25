@@ -62,6 +62,10 @@
       {
         "type": "subcategory",
         "ids": ["Responders"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["IncidentRoles"]
       }
     ],
     "Analytics": ["Analytics"],
