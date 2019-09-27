@@ -2,9 +2,11 @@
 id: Sumologic
 title: Sumo Logic
 ---
-Sumo Logic is industry's leading, secure, cloud-based service for logs & metrics management for modern apps, providing real-time analytics and insights. To integrate Sumologic with Zenduty, complete the following steps:
+Sumo Logic is industry's leading, secure, cloud-based service for logs & metrics management for modern apps, providing real-time analytics and insights.
 
-## In Zenduty: 
+To integrate Sumologic with Zenduty, complete the following steps:
+
+## In Zenduty:
 
 1. To add a new Sumologic integration, go to "Teams" on Zenduty and click on the "Manage" button corresponding to the team you want to add the integration to.
 
@@ -14,7 +16,7 @@ Sumo Logic is industry's leading, secure, cloud-based service for logs & metrics
 
 4. Go to "Configure" under your integrations and copy the webhooks URL generated.
 
-## In Sumologic: 
+## In Sumologic:
 
 5. After logging in, go to Manage Data -> Settings -> Connections
 
@@ -22,7 +24,7 @@ Sumo Logic is industry's leading, secure, cloud-based service for logs & metrics
 
 ![](/img/Integrations/Sumologic/1.png)
 
-7. In the URL field, add the Webhook URL copied from before. 
+7. In the URL field, add the Webhook URL copied from before.
 
 8. In the payload section, paste the following:
 

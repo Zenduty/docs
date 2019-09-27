@@ -16,21 +16,23 @@ Freshdesk is an online cloud-based customer service software providing helpdesk 
 
 ## In Freshdesk: 
 
-5. Log into Freshdesk. Click on the "Admin" button and select "Dispatch’r" under "Helpdesk Productivity Settings". 
+5. Log into Freshdesk. Click on the "Admin" button and select "Automations" under "Helpdesk Productivity Settings". 
 
 ![](/img/Integrations/Freshdesk/1.png)
 
-6. Select "New Rule" and pick "Rule Name" and "Description".
-
-7. Set Conditions as: 
-	
-	**Type Is Incident**
+6. Click on the "Create the first rule" button.
 
 ![](/img/Integrations/Freshdesk/2.png)
 
+7. Select "New Rule" and pick "Rule Name" and "Description". Set Conditions as: 
+	
+	**Type Is Incident**
+
+![](/img/Integrations/Freshdesk/3.png)
+
 8. Select "Trigger Webhook" from the Actions"  dropdown, and set "Request Type" to "POST". 
 
-	Under the "Callback URL", paste the webhook url you copied earlier.
+	Under the "URL", paste the webhook url you copied earlier.
 
 	Set the "Encoding" as "JSON" and content as "Simple".
 	
@@ -38,23 +40,29 @@ Freshdesk is an online cloud-based customer service software providing helpdesk 
 
 This is shown in the screenshot below: 
 
-![](/img/Integrations/Freshdesk/3.png)
+![](/img/Integrations/Freshdesk/4.png)
 
 9. Save. 
 
-10. Click on the "Admin" button on and select "Observer" under "Helpdesk Productivity Settings".
-
-![](/img/Integrations/Freshdesk/4.png)
-
-11. Select "New Rule" and pick a "Rule Name" and "Description". 
-
-	Set "Action Performed By" to "Agent" and an "Event". For example, here we have picked:"Status is Changed" from "Any Status" to "Any Status".
+10. From the same window, move to "Ticket Updates" sections and click on "New Rule" button. 
 
 ![](/img/Integrations/Freshdesk/5.png)
 
+11. Select "New Rule" and pick a "Rule Name" and "Description". 
+
+	Set "Action Performed By" to "Agent" and an "Event". For example, here we have picked:"Status is Changed" from "Any Status" to "Any Status" and so on depending upon the requirements.
+
+![](/img/Integrations/Freshdesk/6.png)
+
+![](/img/Integrations/Freshdesk/7.png)
+
+12. In the "On tickets with these properties" section, set condition as "Type Is" and "Incident".
+
+![](/img/Integrations/Freshdesk/8.png)
+
 12. Select "Trigger Webhook" from the "Actions" dropdown and set the "Request Type" to "POST".
 	
-	Under the callback URL,paste the webhook link you copied earlier.
+	In the URL textbox, paste the webhook link you copied earlier.
 	
 	Set the Encoding to "JSON" and Content to "Simple".
 	
@@ -62,7 +70,7 @@ This is shown in the screenshot below:
 
 This is shown in the screenshot below: 
 
-![](/img/Integrations/Freshdesk/6.png)
+![](/img/Integrations/Freshdesk/9.png)
 
 13. Save.
 
