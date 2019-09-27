@@ -28,4 +28,4 @@ Amazon CloudWatch is a monitoring and management service built for developers, s
 
 8. Click on "create subscription" to find a list of your subscriptions. Refresh this page to confirm.
 
-9. You can now create alarms to the topic. All Alarms will trigger an incident
+9. Whenever you create an Alarm in Cloudwatch, choose the above created SNS topic. All Alarms will trigger an incident on Zenduty, and the incident will auto-resolve when the Alarm returns to its normal state.

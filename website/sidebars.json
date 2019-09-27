@@ -66,6 +66,10 @@
       {
         "type": "subcategory",
         "ids": ["IncidentRoles"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["TaskTemplates"]
       }
     ],
     "Analytics": ["Analytics"],
