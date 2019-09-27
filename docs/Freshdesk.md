@@ -58,7 +58,7 @@ This is shown in the screenshot below:
 	
 	Set the Encoding to "JSON" and Content to "Simple".
 	
-	Under Content, Select the following fields- Ticket ID, Subject, Description, Status.
+	Under Content, Select all the fields under Content, including and especially Ticket ID, Subject, Description, Status and Ticket URL.
 
 This is shown in the screenshot below: 
 
