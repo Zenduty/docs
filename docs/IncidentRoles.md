@@ -1,5 +1,5 @@
 ---
-id: Incident Roles
+id: IncidentRoles
 title: Incident Roles
 ---
 Zenduty allows "Owners" and "Admins" to define specified incident roles within a team to help improve communication and cordinate response efforts during an incident. It lets you define custom incident roles and ranks according to your incident response plan. 
