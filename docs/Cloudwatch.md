@@ -37,3 +37,4 @@ Amazon CloudWatch is a monitoring and management service built for developers, s
 ![](/img/Integrations/Cloudwatch/4.png)
 
 11. Zenduty will create an incident for each alarm and auto-resolve the incident when Cloudwatch sends the OK notification.
+
