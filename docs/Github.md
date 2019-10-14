@@ -30,7 +30,7 @@ To integrate Github with Zenduty, complete the following steps:
 
 9. Under "Which events would you like to trigger this webhook?", click on "Let me select individual events".
 
-10. Select the events which you want to track in Zenduty. 
+10. Select the events which you want to track in Zenduty. Events supported are "Pushes", "Issues", "Pull Requests" and "Releases"
 
 ![](/img/Integrations/Github/1.png)
 
