@@ -28,4 +28,13 @@ Amazon CloudWatch is a monitoring and management service built for developers, s
 
 8. Click on "create subscription" to find a list of your subscriptions. Refresh this page to confirm.
 
-9. Whenever you create an Alarm in Cloudwatch, choose the above created SNS topic. All Alarms will trigger an incident on Zenduty, and the incident will auto-resolve when the Alarm returns to its normal state.
+9. You can now create alarms to the topic. 
+
+10. While creating Alarm rules, choose the above created SNS topic for notifying in both the ALARM state and OK state as displayed in the screenshot below.
+
+![](/img/Integrations/Cloudwatch/3.png)
+
+![](/img/Integrations/Cloudwatch/4.png)
+
+11. Zenduty will create an incident for each alarm and auto-resolve the incident when Cloudwatch sends the OK notification.
+

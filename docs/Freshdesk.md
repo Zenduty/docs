@@ -36,7 +36,7 @@ Freshdesk is an online cloud-based customer service software providing helpdesk 
 
 	Set the "Encoding" as "JSON" and content as "Simple".
 	
-	Under "Content", select the following fields- Ticket ID, Subject, Description, Status.
+	Under "Content", select the following fields- Ticket ID, Subject, Description, Status, Ticket URL.
 
 This is shown in the screenshot below: 
 

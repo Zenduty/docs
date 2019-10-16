@@ -40,7 +40,7 @@ For monitoring IT components, like servers, networks, virtual machines and cloud
 
   ```
   {ALERT.SENDTO}
-  {ALERT.SUBJECT}
+  {ALERT.MESSAGE}
   ```
 11. Click the Add button at the bottom to save and create the Zenduty media type.
 
