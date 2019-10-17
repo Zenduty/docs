@@ -74,6 +74,11 @@
       {
         "type": "subcategory",
         "ids": ["Search"]
+s
+      },
+      {
+        "type": "subcategory",
+        "ids": ["IncidentTags"]
       }
       
     ],
