@@ -12,4 +12,4 @@ To review any incidents from the past, simply type the name of the incident.
 
 ![](/img/search_2.png)
 
-The tool will instantly show you the incident. 
+Zenduty will instantly show you the incident. 
