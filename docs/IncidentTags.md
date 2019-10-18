@@ -1,6 +1,6 @@
 ---
-id: Incident Tags
-title: IncidentTags
+id: IncidentTags 
+title: Incident Tags
 ---
 
 You can create custom incident tags on Zenduty to assign to incident as per your organizations protocols. To create a tag simply browse to Teams and click on view. Click on Tags and you will see the option for Create Tags. 
