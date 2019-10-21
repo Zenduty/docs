@@ -140,6 +140,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["FreshdeskTwoWay"]
+      },      
+      {
+        "type": "subcategory",
         "ids": ["GhostInspector"]
       },
       {
