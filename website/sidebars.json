@@ -177,6 +177,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["HTTPHealthcheck"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["Humio"]
       },
       {
