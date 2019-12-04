@@ -18,7 +18,7 @@ HTTP Healthcheck supports Cron Monitoring to monitor nightly backups, weekly rep
 5. To create an alert from your application, send a post request to: 
 
     ```
-    https://www.zenduty.com/api/events/<integration-key>/<alert_type>/
+    https://www.zenduty.com/api/integration/httphealthcheck/<integration-key>/<alert_type>/
     ```
 
 6. Replace the <integration-key> with the Integration key you copied in Step 5. Replace <alert-type> with one of 6 values - **critical**, **acknowledged**, **resolved**, **error**, **warning**, **info**. 
