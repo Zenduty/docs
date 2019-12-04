@@ -23,7 +23,7 @@ HTTP Healthcheck supports Cron Monitoring to monitor nightly backups, weekly rep
 
 6. Replace the <integration-key> with the Integration key you copied in Step 5. Replace <alert-type> with one of 6 values - **critical**, **acknowledged**, **resolved**, **error**, **warning**, **info**. 
 
-7. **critical**, **error** and **warning** alert types will create an incident, depending on your integration settings. **acknowledged** alert type will acknowledge the incident. **resolved** will resolve the incident.
+7. **critical**, **error** and **warning** alert types will create an incident, depending on your integration settings. **acknowledged** alert type will acknowledge the incident. **resolved** will resolve the incident. **info** will not create any incidents but will add an INFO alert to your alert log.
 
 7. Send an HTTP Post request to the above URL without any payload.
 
