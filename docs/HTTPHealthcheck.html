@@ -70,7 +70,7 @@
 <pre><code class="hljs">http<span class="hljs-variable">s:</span>//www.zenduty.<span class="hljs-keyword">com</span>/api/events/<span class="hljs-symbol">&lt;integration-key&gt;</span>/<span class="hljs-symbol">&lt;alert_type&gt;</span>/
 </code></pre></li>
 <li><p>Replace the &lt;integration-key&gt; with the Integration key you copied in Step 5. Replace &lt;alert-type&gt; with one of 6 values - <strong>critical</strong>, <strong>acknowledged</strong>, <strong>resolved</strong>, <strong>error</strong>, <strong>warning</strong>, <strong>info</strong>.</p></li>
-<li><p><strong>critical</strong>, <strong>error</strong> and <strong>warning</strong> alert types will create an incident, depending on your integration settings. <strong>acknowledged</strong> alert type will acknowledge the incident. <strong>resolved</strong> will resolve the incident.</p></li>
+<li><p><strong>critical</strong>, <strong>error</strong> and <strong>warning</strong> alert types will create an incident, depending on your integration settings. <strong>acknowledged</strong> alert type will acknowledge the incident. <strong>resolved</strong> will resolve the incident. <strong>info</strong> will not create any incidents but will add an INFO alert to your alert log.</p></li>
 <li><p>Send an HTTP Post request to the above URL without any payload.</p></li>
 <li><p>HTTP Healthcheck is now integrated.</p></li>
 </ol>
