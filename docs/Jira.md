@@ -1,6 +1,6 @@
 ---
 id: Jira
-title: Jira
+title: Jira (2-Way)
 ---
 Jira is a proprietary issue tracking product developed by Atlassian that allows bug tracking and agile project management.
 
