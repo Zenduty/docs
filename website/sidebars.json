@@ -317,6 +317,14 @@
       },
       {
         "type": "subcategory",
+        "ids": ["SlackIncidentCommand"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["SlackOutgoingWebhook"]
+      },      
+      {
+        "type": "subcategory",
         "ids": ["SignalFX"]
       },
       {
