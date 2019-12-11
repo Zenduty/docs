@@ -52,7 +52,7 @@
       {
         "type": "subcategory",
         "ids": ["AlertRules"]
-      }
+      },
       {
         "type": "subcategory",
         "ids": ["MaintenanceWindows"]
