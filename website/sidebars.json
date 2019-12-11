@@ -47,12 +47,17 @@
       },
       {
         "type": "subcategory",
-        "ids": ["AlertRules"]
+        "ids": ["OutgoingIntegration"]
       },
+      {
+        "type": "subcategory",
+        "ids": ["AlertRules"]
+      }
       {
         "type": "subcategory",
         "ids": ["MaintenanceWindows"]
       }
+      
     ],
     "Incidents": [
       {
