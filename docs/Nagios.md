@@ -23,7 +23,7 @@ Nagios is a free and open source computer-software application that monitors sys
 	$ git clone https://github.com/Zenduty/zd-nagios.git
 	$ cd zd-nagios
 ```
-7. Open zenduty_nagios.cfg file and enter the integration key provided into the “pager” field. 
+7. Open zenduty_nagios.cfg file and enter the integration key provided into the “pager” field. In the two "command_line" fields below, modify the path to the zenduty_nagios.py to wherever your Nagios plugin folder resides. You will move the zenduty_nagios file to this folder in step 11. 
 8. Move the Nagios Core configuration file into place. 
 * For Debian-based systems this is usually `/etc/nagios3/conf.d:`
 	```
@@ -72,7 +72,8 @@ If using a source installation, add this line to the main config file at `/usr/l
 	$ chmod +x /usr/lib/cgi-bin/nagios3/zenduty_nagios.py
 	```
 * For most RHEL-based systems:
-	```$ chmod +x /usr/lib64/nagios/cgi/zenduty_nagios.py
+	```
+	$ chmod +x /usr/lib64/nagios/cgi/zenduty_nagios.py
 	```
 * For Amazon Linux and CentOS 6+ systems:
 	```
