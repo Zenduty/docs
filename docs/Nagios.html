@@ -76,7 +76,7 @@
     $ cd zd-nagios
 </code></pre>
 <ol start="7">
-<li>Open zenduty_nagios.cfg file and enter the integration key provided into the “pager” field.</li>
+<li>Open zenduty_nagios.cfg file and enter the integration key provided into the “pager” field. In the two &quot;command_line&quot; fields below, modify the path to the zenduty_nagios.py to wherever your Nagios plugin folder resides. You will move the zenduty_nagios file to this folder in step 11.</li>
 <li>Move the Nagios Core configuration file into place.</li>
 </ol>
 <ul>
@@ -128,7 +128,8 @@
 <pre><code class="hljs">$ chmod +x /usr/<span class="hljs-class"><span class="hljs-keyword">lib</span>/<span class="hljs-title">cgi</span>-<span class="hljs-title">bin</span>/<span class="hljs-title">nagios3</span>/<span class="hljs-title">zenduty_nagios</span>.<span class="hljs-title">py</span></span>
 </code></pre></li>
 <li>For most RHEL-based systems:
-<pre><code class="hljs css language-$ chmod +x /usr/lib64/nagios/cgi/zenduty_nagios.py"></code></pre></li>
+<pre><code class="hljs">$ chmod +x <span class="hljs-meta-keyword">/usr/</span>lib64<span class="hljs-meta-keyword">/nagios/</span>cgi/zenduty_nagios.py
+</code></pre></li>
 <li>For Amazon Linux and CentOS 6+ systems:
 <pre><code class="hljs">$ chmod +x <span class="hljs-meta-keyword">/usr/</span>local<span class="hljs-meta-keyword">/nagios/</span>sbin/zenduty_nagios.py
 </code></pre></li>
