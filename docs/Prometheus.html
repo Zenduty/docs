@@ -71,12 +71,57 @@
 <ol start="5">
 <li><p>Ensure that both Prometheus and Prometheus Alertmanager are downloaded and accessible locally on your system. To download them, visit <a href="https://prometheus.io/download/">here</a></p></li>
 <li><p>Go to Alertmanager Folder and open &quot;alertmanager.yml&quot;. Add the webhook url (copied in the earlier steps) under &quot;Webhook Configs&quot;.
-Your &quot;alertmanager.yml&quot; file should now look like this:
-<code>global: resolve_timeout: 5m route: group_by: ['alertname', 'cluster', 'service'] group_wait: 30s group_interval: 5m repeat_interval: 3h receiver: 'web.hook' receivers: - name: 'web.hook' webhook_configs: - url: 'https://zenduty.com/api/integration/prometheus/8a02aa3b-4289-4360-9ad4-f31f40aea5ed/' inhibit_rules: - source_match: severity: 'critical' target_match: severity: 'warning' equal: ['alertname', 'dev', 'instance']</code></p></li>
+Your &quot;alertmanager.yml&quot; file should now look like this:</p>
+<pre><code class="hljs"> ```
+ global:
+   resolve_timeout: 5m
+ route:
+   group_by: ['alertname', 'cluster', 'service']
+   group_wait: 30s
+   group_interval: 5m
+   repeat_interval: 3h
+   receiver: 'web.hook'
+ receivers:
+ - name: 'web.hook'
+   webhook_configs:
+   - url: 'https://zenduty.com/api/integration/prometheus/8a02aa3b-4289-4360-9ad4-f31f40aea5ed/'
+ inhibit_rules:
+   - source_match:
+       severity: 'critical'
+     target_match:
+       severity: 'warning'
+     equal: ['alertname', 'dev', 'instance']
+ ```
+</code></pre></li>
 <li><p>Make your &quot;Alert Rules&quot; in a file titled as &quot;first_rules.yml&quot;, &quot;second_rules.yml&quot;, and so on.</p></li>
 <li><p>In the Prometheus folder, open &quot;prometheus.yml&quot;. Add new rules files that you just created and set Target.
-Your &quot;prometheus.yml&quot; file should look like this:
-<code># my global config global: scrape_interval: 15s # Set the scrape interval to every 15 seconds. Default is every 1 minute. evaluation_interval: 15s # Evaluate rules every 15 seconds. The default is every 1 minute. # scrape_timeout is set to the global default (10s). # Alertmanager configuration alerting: alertmanagers: - static_configs: - targets: [&quot;localhost:9093&quot;] # Load rules once and periodically evaluate them according to the global 'evaluation_interval'. rule_files: - &quot;first_rules.yml&quot; # - &quot;second_rules.yml&quot; # A scrape configuration containing exactly one endpoint to scrape: # Here it's Prometheus itself. scrape_configs: # The job name is added as a label `job=&lt;job_name&gt;` to any timeseries scraped from this config. - job_name: 'prometheus' # metrics_path defaults to '/metrics' # scheme defaults to 'http'. static_configs: - targets: ['localhost:9090']</code></p></li>
+Your &quot;prometheus.yml&quot; file should look like this:</p>
+<pre><code class="hljs"> ```
+ # my global config
+ global:
+   scrape_interval:     15s # Set the scrape interval to every 15 seconds. Default is every 1 minute.
+   evaluation_interval: 15s # Evaluate rules every 15 seconds. The default is every 1 minute.
+   # scrape_timeout is set to the global default (10s).
+ # Alertmanager configuration
+ alerting:
+   alertmanagers:
+   - static_configs:
+     - targets: [&quot;localhost:9093&quot;]
+ # Load rules once and periodically evaluate them according to the global 'evaluation_interval'.
+ rule_files:
+   - &quot;first_rules.yml&quot;
+   # - &quot;second_rules.yml&quot;
+ # A scrape configuration containing exactly one endpoint to scrape:
+ # Here it's Prometheus itself.
+ scrape_configs:
+   # The job name is added as a label `job=&lt;job_name&gt;` to any timeseries scraped from this config.
+   - job_name: 'prometheus'
+     # metrics_path defaults to '/metrics'
+     # scheme defaults to 'http'.
+     static_configs:
+     - targets: ['localhost:9090']
+ ```
+</code></pre></li>
 <li><p>Run Prometheus and Alert Manager using commands like:</p>
 <p><code>run prometheus: ./prometheus --config.file=prometheus.yml</code></p>
 <p><code>run alertmanager: ./alertmanager --config.file=alertmanager.yml</code></p></li>
