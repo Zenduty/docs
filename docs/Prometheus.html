@@ -72,7 +72,7 @@
 <li><p>Ensure that both Prometheus and Prometheus Alertmanager are downloaded and accessible locally on your system. To download them, visit <a href="https://prometheus.io/download/">here</a></p></li>
 <li><p>Go to Alertmanager Folder and open &quot;alertmanager.yml&quot;. Add the webhook url (copied in the earlier steps) under &quot;Webhook Configs&quot;.
 Your &quot;alertmanager.yml&quot; file should now look like this:
-<code>global: resolve_timeout: 5m route: group_by: ['alertname'] group_wait: 10s group_interval: 10s repeat_interval: 1h receiver: 'web.hook' receivers: - name: 'web.hook' webhook_configs: - url: 'https://zenduty.com/api/integration/prometheus/8a02aa3b-4289-4360-9ad4-f31f40aea5ed/' inhibit_rules: - source_match: severity: 'critical' target_match: severity: 'warning' equal: ['alertname', 'dev', 'instance']</code></p></li>
+<code>global: resolve_timeout: 5m route: group_by: ['alertname', 'cluster', 'service'] group_wait: 30s group_interval: 5m repeat_interval: 3h receiver: 'web.hook' receivers: - name: 'web.hook' webhook_configs: - url: 'https://zenduty.com/api/integration/prometheus/8a02aa3b-4289-4360-9ad4-f31f40aea5ed/' inhibit_rules: - source_match: severity: 'critical' target_match: severity: 'warning' equal: ['alertname', 'dev', 'instance']</code></p></li>
 <li><p>Make your &quot;Alert Rules&quot; in a file titled as &quot;first_rules.yml&quot;, &quot;second_rules.yml&quot;, and so on.</p></li>
 <li><p>In the Prometheus folder, open &quot;prometheus.yml&quot;. Add new rules files that you just created and set Target.
 Your &quot;prometheus.yml&quot; file should look like this:
