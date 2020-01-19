@@ -16,7 +16,7 @@ Sentry is an open-source error tracking that helps developers monitor and fix cr
 5. Log in to your Sentry account. Go to "Project Settings".
 6. Click the "Settings" tab from the left hand menu. 
 7. Click on "Webhooks" under "Legacy Integrations".
-8. Paste the webhooks url you copied earlier under "Callback Urls".
+8. Paste the webhooks url you copied earlier under "Callback URLs".
 
 ![](/img/Integrations/Sentry/1.png)
 

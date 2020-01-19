@@ -102,9 +102,9 @@ For monitoring IT components, like servers, networks, virtual machines and cloud
 
     ```
     {
-        "problem": " {EVENT.NAME}",
+        "problem": " {TRIGGER.NAME}",
         "problem_started_at": "{EVENT.TIME} on {EVENT.DATE}",
-        "problem_name": "{EVENT.NAME}",
+        "problem_name": "{TRIGGER.NAME}",
         "host": "{HOST.NAME}",
         "severity": "{EVENT.SEVERITY}",
         "original_problem_id": "{TRIGGER.ID}",

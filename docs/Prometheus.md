@@ -20,14 +20,15 @@ Prometheus is an open-source monitoring solution that resides locally on your ma
  
 6. Go to Alertmanager Folder and open "alertmanager.yml". Add the webhook url (copied in the earlier steps) under "Webhook Configs".
 	 Your "alertmanager.yml" file should now look like this:
+	 
 		```
 		global:
 		  resolve_timeout: 5m
 		route:
-		  group_by: ['alertname']
-		  group_wait: 10s
-		  group_interval: 10s
-		  repeat_interval: 1h
+		  group_by: ['alertname', 'cluster', 'service']
+		  group_wait: 30s
+		  group_interval: 5m
+		  repeat_interval: 3h
 		  receiver: 'web.hook'
 		receivers:
 		- name: 'web.hook'
@@ -45,6 +46,7 @@ Prometheus is an open-source monitoring solution that resides locally on your ma
 
 8. In the Prometheus folder, open "prometheus.yml". Add new rules files that you just created and set Target. 
 	Your "prometheus.yml" file should look like this:
+	
 		```
 		# my global config
 		global:
