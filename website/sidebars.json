@@ -85,6 +85,7 @@
         "ids": ["IncidentTags"]
       }   
     ],
+    "SAML-Single Sign On": ["GoogleSSO"],
     "Analytics": ["Analytics"],
     "Integrations":[
       {
