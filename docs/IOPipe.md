@@ -23,12 +23,13 @@ IOpipe's platform lets you debug at lightning fast speed and iterate. To integra
 
 8. Now "Choose a project" and give it a name.
 
-![](/img/Integrations/IOpipe/3.png)
+<div style="text-align:center"><img src ="/IOPipe/3.png"/></div>
+
 
 9. Go to "Alerts" and choose the required "Function" parameters.
 
 10. Finally paste the copied link in the URL field. 
 
-![](/img/Integrations/IOpipe/4.png)
+<div style="text-align:center"><img src ="/IOPipe/4.png"/></div>
 
 11. IOpipe is now integrated. 
