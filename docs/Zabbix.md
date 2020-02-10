@@ -18,9 +18,9 @@ For monitoring IT components, like servers, networks, virtual machines and cloud
 
 5. Clone [this Repository](https://github.com/Zenduty/zabbix-zenduty-script.git)
 
-    https://github.com/Zenduty/zabbix-zenduty-script.git
+    git clone https://github.com/Zenduty/zabbix-zenduty-script.git
 
-6. Copy the Script file and paste it into Zabbix server's AlertScriptsPath. You can see your AlertScriptsPath path from Zabbix server configuration file.
+6. Copy the Script file(zabbix_zenduty_integration.sh) and paste it into Zabbix server's AlertScriptsPath. You can see your AlertScriptsPath path from Zabbix server configuration file.
 
 ![](/img/Integrations/Zabbix/1.png)
 
