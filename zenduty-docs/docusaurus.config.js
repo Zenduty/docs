@@ -18,55 +18,15 @@ module.exports = {
       trackingID: 'UA-135991214-1',
     },
     navbar: {
-      title: 'Docs',
+      title: 'Zenduty - General Documentation',
       logo: {
         alt: 'Zenduty',
         src: 'img/favicon/favicon.png',
       },
-      links: [
-        {to: 'docs/Introduction', label: 'Docs', position: 'left'},
-        {
-          href: '',
-          label: '',
-          position: '',
-        },
-      ],
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: '',
-              to: '',
-            },
-            {
-              label: '',
-              to: '',
-            },
-          ],
-        },
-        {
-          title: 'Social',
-          items: [
-            {
-              label: 'Blog',
-              href: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/Zenduty',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/Zenduty',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Zenduty created by YellowAnt.`,
     },
   },
   presets: [
@@ -74,9 +34,8 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.json'),
-          editUrl:
-            '',
+          sidebarPath: require.resolve('./sidebars.js'),
+          editUrl:""
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
