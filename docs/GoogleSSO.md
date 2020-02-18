@@ -28,7 +28,7 @@ Here's a walk-through of setting up Google G-suite as your SAML Identity Provide
 
 ![](/img/Integrations/GoogleSSO/4.png)
 
-8. Enter "https://www.zenduty.com/" for the “Entity ID” field. Make sure you add the "/" or else you might encounter an error.
+8. Enter "https://www.zenduty.com" for the “Entity ID” field. Make sure you add the "/" or else you might encounter an error.
 
 9. For the "Name ID" fields, select "Basic Information" and "Primary Email". For the "Name ID Format" field, select "Unspecified" and click "Next".
 
