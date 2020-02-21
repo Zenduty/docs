@@ -25,4 +25,24 @@ Zendesk is a customer service software and support ticketing system. To integrat
 
 ![](/img/Integrations/Zendesk/Webhook2.png)
 
-7. Your Zendesk account is integrated. Zenduty will now create an incident for every new ticket created on Zendesk.
+7. Go to Zendesk -> Settings -> Business Rules -> Triggers
+
+8. Click on "Add Trigger". Give the trigger name as "Zenduty trigger". 
+
+![](/img/Integrations/Zendesk/4.png)
+
+9. Under "Meet ALL of the conditions", choose "Type" is "Incident" or some other value according to your requirements.
+
+10. Under "Meet ANY of the following conditions", add two conditions - "Ticket is Created" and "Ticket is Updated"
+
+11. Under Actions, select "Notify target", and select the target created in step 6.
+
+12. In JSON body, paste the JSON below:
+
+```
+
+{"title":"{{ticket.title}}", "description":"{{ticket.description}}","url":"{{ticket.url}}", "id":"{{ticket.id}}", "status":"{{ticket.status}}"}
+
+```
+
+7. Click on "Save". Your Zendesk account is integrated. Zenduty will now create an incident for every new ticket created on Zendesk.
