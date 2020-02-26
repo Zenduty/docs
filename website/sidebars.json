@@ -134,6 +134,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["Dynamics365"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["Dynatrace"]
       },
       {
