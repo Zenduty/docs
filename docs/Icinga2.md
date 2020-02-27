@@ -48,7 +48,7 @@ Icinga 2 is an open source monitoring system which checks the availability of yo
 	$ display_name = "Icinga 2 Admin Group"
 	}
 	```
-13. Now add the custom attribute "enable_zenduty" to your configuration’s host and service configuration objects.
+13. Now add the custom attribute "use_zenduty" to your configuration’s host and service configuration objects.
 	```
 	$ vars.enable_zenduty = true
 	```
