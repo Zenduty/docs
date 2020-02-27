@@ -91,7 +91,7 @@ $ mv zenduty-icinga2.conf <span class="hljs-regexp">/etc/i</span>cinga2<span cla
 <span class="hljs-variable">$ </span>display_name = <span class="hljs-string">"Icinga 2 Admin Group"</span>
 }
 </code></pre></li>
-<li><p>Now add the custom attribute &quot;enable_zenduty&quot; to your configuration’s host and service configuration objects.</p>
+<li><p>Now add the custom attribute &quot;use_zenduty&quot; to your configuration’s host and service configuration objects.</p>
 <pre><code class="hljs"><span class="hljs-variable">$ </span>vars.enable_zenduty = <span class="hljs-keyword">true</span>
 </code></pre></li>
 <li><p>If the number of objects is large then you can add the above line to the generic-host and generic-service templates in the templates.conf file in the conf.d folder.</p></li>
