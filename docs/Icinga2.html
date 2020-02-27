@@ -91,9 +91,22 @@ $ mv zenduty-icinga2.conf <span class="hljs-regexp">/etc/i</span>cinga2<span cla
 <span class="hljs-variable">$ </span>display_name = <span class="hljs-string">"Icinga 2 Admin Group"</span>
 }
 </code></pre></li>
-<li><p>Now add the custom attribute &quot;use_zenduty&quot; to your configuration’s host and service configuration objects.</p>
+<li><p>Now add the custom attribute &quot;enable_zenduty&quot; to your configuration’s host and service configuration objects for all hosts and services you wish to receive alerts from.</p>
 <pre><code class="hljs"><span class="hljs-variable">$ </span>vars.enable_zenduty = <span class="hljs-keyword">true</span>
 </code></pre></li>
+</ol>
+<p>For example:</p>
+<pre><code class="hljs">```
+object Host &quot;wp1.example.com&quot; {
+  import &quot;web-server&quot;
+  import &quot;wp-server&quot;
+  vars.ssh_port = 2222
+  address = &quot;192.168.56.201&quot;
+
+  vars.enable_zenduty = true # Add this line for each host
+}
+</code></pre>
+<ol start="14">
 <li><p>If the number of objects is large then you can add the above line to the generic-host and generic-service templates in the templates.conf file in the conf.d folder.</p></li>
 <li><p>Finally you can import this template to your objects.</p></li>
 <li><p>Restarting Icinga2 service:</p>
