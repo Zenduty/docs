@@ -48,10 +48,23 @@ Icinga 2 is an open source monitoring system which checks the availability of yo
 	$ display_name = "Icinga 2 Admin Group"
 	}
 	```
-13. Now add the custom attribute "use_zenduty" to your configuration’s host and service configuration objects.
+13. Now add the custom attribute "enable_zenduty" to your configuration’s host and service configuration objects for all hosts and services you wish to receive alerts from.
 	```
 	$ vars.enable_zenduty = true
 	```
+
+For example:
+	
+	```
+	object Host "wp1.example.com" {
+	  import "web-server"
+	  import "wp-server"
+	  vars.ssh_port = 2222
+	  address = "192.168.56.201"
+
+	  vars.enable_zenduty = true # Add this line for each host
+	}
+	
 14. If the number of objects is large then you can add the above line to the generic-host and generic-service templates in the templates.conf file in the conf.d folder. 
 
 15. Finally you can import this template to your objects.
