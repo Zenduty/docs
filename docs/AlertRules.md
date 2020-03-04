@@ -86,3 +86,7 @@ Simply click the "view" button next to the rule you want to edit.
 
 ## Deleting an Alert Rule
 Simply click the "delete" button corresponding to the rule you want to delete.
+
+##FAQs:
+
+1. For time window based operations that cross into the next day, for example 18:00:00 to 04:00:00, split the time in the conditions as 18:00 to 23:59:59 and 00:00:00 to 04:00:00

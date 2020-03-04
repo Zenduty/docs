@@ -17,6 +17,10 @@ Nagios is a free and open source computer-software application that monitors sys
 ## In Nagios: 
 
 5. Install Nagios Core on your system. After this, add an integration on your zenduty account. Note the integration key automatically provided to you.
+
+[IMPORTANT] Make sure you have Python2 installed on your system.
+
+
 6. Download the Zenduty-Nagios  files by following the steps given below:
 
 ```$ cd /tmp
