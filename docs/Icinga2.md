@@ -17,7 +17,7 @@ Icinga 2 is an open source monitoring system which checks the availability of yo
 
 ## In Icinga2: 
 
-5. Install the Icinga2 software on your system. 
+5. Install the Icinga2 software on your system. [IMPORTANT]Make sure you have Python3 installed on your system.
 
 6. After this, add an integration to your Zenduty account. This is NOT the integration automatically provided to you. 
 
@@ -27,7 +27,7 @@ Icinga 2 is an open source monitoring system which checks the availability of yo
 	$ git clone https://github.com/Zenduty/icinga-zenduty-script.git
 	$ cd icinga-zenduty-script
 	```
-8. Now open the Zenduty-Icinga2 configuration file and enter the provided integration key into the "Pager field".
+8. Now open the Zenduty-Icinga2 configuration file and enter the provided integration key into the "pager" field.
 
 9. Now move the files into their respective folders inside "/etc/icinga2/."
 
