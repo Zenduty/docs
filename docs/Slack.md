@@ -5,6 +5,8 @@ title: Slack
 
 Slack is a popular workplace messaging platform, designed to get tools, people and context together so teams can troubleshoot faster. The Zenduty Incident Management platform fetches alerts from your monitoring apps, creates and assigns incidents based on schedules and escalation policies and intimates engineers on call. When these two applications come together, the result is a fast, stress-free incident-resolution process.
 
+IMPORTANT - This setup is for sending incident updates to the user's direct message(DM) from the @Zenduty Slack bot. To send incident updates to a Chal channel, check out the Slack - Incident Command System outgoing integration.
+
 ## How to Set-Up a Slack Integration for Zenduty: 
 
 There are two ways to receive Slack notifications from Zenduty
@@ -21,19 +23,6 @@ Simply click "Connect your Slack account":
 Add Slack to your notification rules:
 
 ![Add Slack to your notification rules](/img/Integrations/Slack/2.png)
-
-**2. As a notification to a Slack Channel**
-
-When an incident is created in a service, Zenduty can send a notification to the Slack channel for that service.
-Setting this up is as simple as adding an "Outgoing Integration" for Slack. Connect your slack account, and name the channel you want notifications to.
-
-Add integration details:
-
-![Add integration details](/img/Integrations/Slack/3.png)
-
-Select the channel to send notifications to:
-
-![Select the channel to send notifications to](/img/Integrations/Slack/4.png)
 
 ## How the Slack Integration for Zenduty Works:
 
