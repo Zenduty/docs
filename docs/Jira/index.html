@@ -68,9 +68,20 @@
 <li><p>Next, go to &quot;Services&quot; and click on the &quot;Manage&quot; button corresponding to the relevant Service.</p></li>
 <li><p>Go to &quot;Outgoing Integrations&quot; and then &quot;Add New Outgoing Integration&quot;. Give it a name and select the application &quot;Jira(Two-Way)&quot; from the dropdown menu.</p></li>
 <li><p>Go to &quot;Configure&quot; under your Outgoing Integrations.</p></li>
-<li><p>There are Several fields to be added here, Starting off with the &quot;Jira URL&quot;. This can be obtained by checking the URL of your Jira Domain, For example, &quot;<a href="https://your-domain.atlassian.net/">https://your-domain.atlassian.net/</a>&quot;.</p></li>
+<li><p>There are Several fields to be added here, Starting off with the &quot;Jira URL&quot;. This can be obtained by checking the URL of your Jira Domain.</p></li>
+</ol>
+<blockquote>
+<p>For example - <strong><a href="https://your-domain.atlassian.net/">https://your-domain.atlassian.net/</a></strong></p>
+</blockquote>
+<ol start="6">
 <li><p>Then insert the Email to which your Jira Domain is linked to.</p></li>
-<li><p>Next, the Project ID/Project Key, which can be found at the Project table in Jira under &quot;Project Key&quot; for the project you want to implement Jira with.</p></li>
+<li><p>Next, the Project ID/Project Key, which can be found at the Project table in Jira under &quot;Key&quot; for the project you want to implement Jira with. For example, your project key may look something like - <strong>ACME</strong>, <strong>TES</strong>, <strong>INC</strong> or something else
+<img src="/img/Integrations/Jira/4.png" alt=""></p></li>
+</ol>
+<blockquote>
+<p>You can also get it from your URL - <a href="https://your-domain.atlassian.net/jira/servicedesk/projects/">https://your-domain.atlassian.net/jira/servicedesk/projects/</a><strong>TEST</strong>/</p>
+</blockquote>
+<ol start="8">
 <li><p>Next Insert the Issue Type the Jira Issue should be Regarded as, The different types of Issue types can be found in the Jira Settings, under a sub category called &quot;Issue Types&quot;.</p></li>
 <li><p>Then finally we need the Jira API key, this can be obtained by :</p>
 <ul>
@@ -80,11 +91,14 @@
 <li>Click Copy to clipboard, then paste the token.
 <img src="/img/Integrations/Jira/1.png" alt=""></li>
 </ul></li>
-<li><p>Proceed by clicking &quot;Save &amp; Next&quot;</p></li>
+<li><p>Proceed by clicking &quot;Save &amp; Next&quot;
+<img src="/img/Integrations/Jira/5.png" alt=""></p></li>
 <li><p>Next, Incident Response Mapping is needed. Map the appropriate incident status to the loaded statuses that Jira can transition the issue into.</p></li>
-<li><p>Similarly, Issue mapping is also needed for 2-Way integration between Zenduty and Jira. Map the Issue statuses to the Incident statuses so issues can trigger a transition in status in the linked incident.
-Do watch out for cyclic mapping of the incidents.</p></li>
+<li><p>Similarly, Issue mapping is also needed for 2-Way integration between Zenduty and Jira. Map the Issue statuses to the Incident statuses so issues can trigger a transition in status in the linked incident.</p></li>
 </ol>
+<blockquote>
+<p><strong>Do watch out for <em>cyclic mapping</em> of the incidents.</strong></p>
+</blockquote>
 <p><img src="/img/Integrations/Jira/2.png" alt=""></p>
 <ol start="13">
 <li>Copy the generated Webhook URL to be added to Jira.</li>
