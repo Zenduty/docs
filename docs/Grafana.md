@@ -8,7 +8,7 @@ Grafana allows you to query, visualize, alert on and understand your metrics no 
 
 1. To add a new Grafana integration, go to "Teams" on Zenduty and click on the "Manage" button corresponding to the team you want to add the integration to.
 
-2. Next, go to "Services" and click on the "Manage" button correspoding to the relevant Service.
+2. Next, go to "Services" and click on the "Manage" button corresponding to the relevant Service.
 
 3. Go to "Integrations" and then "Add New Integration". Give it a name and select the application "Grafana" from the dropdown menu.
 
@@ -18,9 +18,13 @@ Grafana allows you to query, visualize, alert on and understand your metrics no 
 
 5. Log in to Grafana. Go to "Notification Channels". Add New Channel.Select type as "Webhook". 
 
-6. Enter the webhook url copied from the previous step.
+6. Enter the webhook url copied from the previous step. Paste the URL copied and click on Save.
 
 ![](/img/Integrations/Grafana/Webhook.png)
+
+```
+    IMPORTANT WARNING - Sometimes Grafana may not fire an alert if the "Include Image" parameter is selected. First check if the alert is working with the parameter not selected, and then try selecting the parameter and see if the alerts are fired to Zenduty.
+```
 
 7. Next, from the left side menu, select Configuration->Data Sources. Select the data source you want to configure.
 

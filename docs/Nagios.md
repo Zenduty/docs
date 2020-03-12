@@ -8,7 +8,7 @@ Nagios is a free and open source computer-software application that monitors sys
 
 1. To add a new Nagios integration, go to "Teams" on Zenduty and click on the "Manage" button corresponding to the team you want to add the integration to.
 
-2. Next, go to "Services" and click on the "Manage" button correspoding to the relevant Service.
+2. Next, go to "Services" and click on the "Manage" button corresponding to the relevant Service.
 
 3. Go to "Integrations" and then "Add New Integration". Give it a name and select the application "Nagios" from the dropdown menu.
 
@@ -17,13 +17,17 @@ Nagios is a free and open source computer-software application that monitors sys
 ## In Nagios: 
 
 5. Install Nagios Core on your system. After this, add an integration on your zenduty account. Note the integration key automatically provided to you.
+
+[IMPORTANT] Make sure you have Python2 installed on your system.
+
+
 6. Download the Zenduty-Nagios  files by following the steps given below:
 
 ```$ cd /tmp
 	$ git clone https://github.com/Zenduty/zd-nagios.git
 	$ cd zd-nagios
 ```
-7. Open zenduty_nagios.cfg file and enter the integration key provided into the “pager” field. 
+7. Open zenduty_nagios.cfg file and enter the integration key provided into the “pager” field. In the two "command_line" fields below, modify the path to the zenduty_nagios.py to wherever your Nagios plugin folder resides. You will move the zenduty_nagios file to this folder in step 11. 
 8. Move the Nagios Core configuration file into place. 
 * For Debian-based systems this is usually `/etc/nagios3/conf.d:`
 	```
@@ -72,7 +76,8 @@ If using a source installation, add this line to the main config file at `/usr/l
 	$ chmod +x /usr/lib/cgi-bin/nagios3/zenduty_nagios.py
 	```
 * For most RHEL-based systems:
-	```$ chmod +x /usr/lib64/nagios/cgi/zenduty_nagios.py
+	```
+	$ chmod +x /usr/lib64/nagios/cgi/zenduty_nagios.py
 	```
 * For Amazon Linux and CentOS 6+ systems:
 	```

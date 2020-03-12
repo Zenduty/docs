@@ -47,12 +47,17 @@
       },
       {
         "type": "subcategory",
+        "ids": ["OutgoingIntegrations"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["AlertRules"]
       },
       {
         "type": "subcategory",
         "ids": ["MaintenanceWindows"]
       }
+      
     ],
     "Incidents": [
       {
@@ -80,6 +85,7 @@
         "ids": ["IncidentTags"]
       }   
     ],
+    "SAML-Single Sign On": ["GoogleSSO", "OktaSSO"],
     "Analytics": ["Analytics"],
     "Integrations":[
       {
@@ -125,6 +131,10 @@
       {
         "type": "subcategory",
         "ids": ["Datadog"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Dynamics365"]
       },
       {
         "type": "subcategory",
@@ -315,6 +325,14 @@
         "type": "subcategory",
         "ids": ["Slack"]
       },
+      {
+        "type": "subcategory",
+        "ids": ["SlackIncidentCommand"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["SlackOutgoingWebhook"]
+      },      
       {
         "type": "subcategory",
         "ids": ["SignalFX"]

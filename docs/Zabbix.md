@@ -18,9 +18,9 @@ For monitoring IT components, like servers, networks, virtual machines and cloud
 
 5. Clone [this Repository](https://github.com/Zenduty/zabbix-zenduty-script.git)
 
-    https://github.com/Zenduty/zabbix-zenduty-script.git
+    git clone https://github.com/Zenduty/zabbix-zenduty-script.git
 
-6. Copy the Script file and paste it into Zabbix server's AlertScriptsPath. You can see your AlertScriptsPath path from Zabbix server configuration file.
+6. Copy the Script file(zabbix_zenduty_integration.sh) and paste it into Zabbix server's AlertScriptsPath. You can see your AlertScriptsPath path from Zabbix server configuration file.
 
 ![](/img/Integrations/Zabbix/1.png)
 
@@ -101,23 +101,7 @@ For monitoring IT components, like servers, networks, virtual machines and cloud
     1. Delete the contents of the Default message field, and insert the following:
 
     ```
-    {
-        "problem": " {EVENT.NAME}",
-        "problem_started_at": "{EVENT.TIME} on {EVENT.DATE}",
-        "problem_name": "{EVENT.NAME}",
-        "host": "{HOST.NAME}",
-        "severity": "{EVENT.SEVERITY}",
-        "original_problem_id": "{TRIGGER.ID}",
-        "event_status":"{EVENT.STATUS}",
-        "host_ip":"{HOST.IP1}",
-        "item_name":"{ITEM.NAME1}",
-        "item_value":"{ITEM.VALUE1}",
-        "trigger_description":"{TRIGGER.DESCRIPTION}",
-        "trigger_expression":"{TRIGGER.EXPRESSION}",
-        "trigger_status":"{TRIGGER.STATUS}",
-        "trigger_url":"{TRIGGER.URL}",
-        "trigger_value":"{TRIGGER.VALUE}"
-    }
+    {"problem":"{TRIGGER.NAME}", "problem_started_at": "{EVENT.TIME} on {EVENT.DATE}", "problem_name": "{TRIGGER.NAME}", "host": "{HOST.NAME}", "severity": "{TRIGGER.SEVERITY}", "original_problem_id": "{TRIGGER.ID}", "event_status":"{EVENT.STATUS}", "host_ip":"{HOST.IP1}", "item_name":"{ITEM.NAME1}", "item_value":"{ITEM.VALUE1}", "trigger_description":"{TRIGGER.DESCRIPTION}", "trigger_expression":"{TRIGGER.EXPRESSION}", "trigger_status":"{TRIGGER.STATUS}", "trigger_url":"{TRIGGER.URL}", "trigger_value":"{TRIGGER.VALUE}"}
     ```
     2. Under Operations, click New, and in the resulting operation details configuration, under Send to User groups, click Add. In the pop-up window, check the box by the Zenduty service user group, click Select, and then click Add at the bottom of the Operations section.
 
