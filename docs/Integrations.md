@@ -77,3 +77,8 @@ Integrations on Zenduty:
 * [Wormly](Wormly.md)
 * [Zabbix](Zabbix.md)
 * [Zendesk](Zendesk.md)
+
+FAQs:
+1) What haappens if no one is in the escalation chain?
+When Zenduty does not see anybody in the escalation chain, Zenduty will create the incident, but the Assignee will be blank. However, after a certain number of non-assignee incidents for the same integration, Zenduty will disable the integration, post which you will have to manually enable it.
+

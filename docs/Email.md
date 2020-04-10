@@ -14,8 +14,13 @@ To create incidents via Email with Zenduty, complete the following steps:
 
 5. Zenduty will create an alert and incident for every email received.
 .
-6. The subject of the email(with keywords and special characters removed) will be the entity_id for the incident.
+6. The hash of subject of the email(with keywords and special characters removed) will be the entity_id for the incident.
 
-7. If any subsequent emails contain the same subject but with an additional keyword 'acknowledged', Zenduty will automatically acknowledge the associated incident.
 
-8. If any subsequent emails contain the same subject but with an additional keyword 'resolved', Zenduty will automatically resolve the associated incident.
+FAQ
+
+Q: I am trying to send an email to the given email address, but it's not creating an incident:
+A: Possible reasons for this to happen:
+a) The email being sent does not contain the integration email address in the "To" section.
+b) The email is sent to a group email address and not to the Zenduty email address individually
+c) The email source is unverified. Make sure that the email is being sent by a genuine mail server and a verified mail account.
