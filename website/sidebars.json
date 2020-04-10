@@ -251,6 +251,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["MicrosoftAzure"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["MicrosoftTeams"]
       },
       {
