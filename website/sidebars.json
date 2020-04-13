@@ -74,6 +74,14 @@
       },
       {
         "type": "subcategory",
+        "ids": ["IncidentPriority"]
+      },
+      {
+        "type": "subcategory",
+        "ids": ["IncidentSLA"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["TaskTemplates"]
       },
       {
