@@ -4,6 +4,8 @@ title: Incident SLAs
 ---
 Incident SLAs let you set acknowledgement and resolution SLAs for your incidents. SLAs allow your teams to prioritize incidents as well as increase transparency amongst incident stakeholders - support, account managers and management.
 
+IMPORTANT: SLA alerts are sent to those notification rules that are set for time zero(immediate) for both high and low urgency incidents. If you'd like to receive SLA alerts on any contact channel, add that contact channel in your notification rule for time t=0(immediate)
+
 To setup incident SLAs, go to your **Teams** page, click on "configure" next to your team. Go to the "SLA" Tab and click on **Create SLA**. 
 
 Select a SLA name, description and acknowledgement and resolution SLA times. Set the SLA alerts for when you'd like to receive an alert - before or after an acknowledgment or resolution SLA is about to be or has already been violated.
