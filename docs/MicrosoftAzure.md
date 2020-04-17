@@ -16,13 +16,69 @@ Microsoft Azure alerts helps you monitor applications, infrastructure, and serve
 
 ## In Microsoft Azure:
 
-5. Log into Microsoft Azure portal.
+5.	Open the Azure portal and click on Alerts. Search on the search bar if not directly visible. 
+ 
+ ![](/img/Integrations/MicrosoftAzure/11.png)
 
-![](/img/Integrations/MicrosoftAzure/1.png)
+6.	Create a new alert rule.
 
-6. Select Alerts (Classic) under the "MONITORING" section. The text and icon may vary slightly for different resources. If Alerts (Classic) is not easily found, they might be found under "Alerts" or "Alert Rules".
+![](/img/Integrations/MicrosoftAzure/12.png)
+ 
+7.	Select the resource which you want to monitor. Here we shall monitor a Virtual Machine.  
+ 	 
+![](/img/Integrations/MicrosoftAzure/13.png)
 
-7. Paste the URL copied from step 4
-![](/img/Integrations/MicrosoftAzure/2.png)
+![](/img/Integrations/MicrosoftAzure/14.png)
 
-10. Azure monitoring is now integrated. 
+8.	Select the condition based on which the alert is to be triggered. Here we create an alert which is triggered when the CPU utilization of a Virtual Machine crosses 50%.
+
+![](/img/Integrations/MicrosoftAzure/15.png) 
+
+![](/img/Integrations/MicrosoftAzure/16.png)
+
+![](/img/Integrations/MicrosoftAzure/17.png)
+
+9.	Create an Action Group (or use a previously created action group)
+
+![](/img/Integrations/MicrosoftAzure/18.png)
+
+10.	Enter the Action group name and short name:
+
+![](/img/Integrations/MicrosoftAzure/19.png)
+ 
+
+11.	Enter an action name and select Webhook under Action Type. A dialog box appears in the side.
+ 
+![](/img/Integrations/MicrosoftAzure/20.png)
+
+
+12.	Enter the URL copied from Step 4 above.
+
+![](/img/Integrations/MicrosoftAzure/21.png)
+
+
+13.	Enable the common alert schema by toggling the button to yes and then click on OK.
+ 
+![](/img/Integrations/MicrosoftAzure/22.png) 
+
+
+
+14.	Click on OK to add the action group.
+
+![](/img/Integrations/MicrosoftAzure/23.png) 
+
+
+The action group has now been created. It should visible under the section of Action Groups
+
+![](/img/Integrations/MicrosoftAzure/24.png) 
+
+
+11.	Fill in the alert details appropriately. The alert rule name along with the severity will appear as the alert message and the alert description will appear as the summary in Zenduty
+ 
+ ![](/img/Integrations/MicrosoftAzure/25.png) 
+
+13.	Click on create alert rule. You have now successfully added Azure as an integration!
+
+
+
+
