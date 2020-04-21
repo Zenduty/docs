@@ -6,62 +6,40 @@ title: Single Sign On with Okta
 
 Here's a walk-through of setting up Okta as your SAML Identity Provider. This allows your team to log into Zenduty without a new email / password combination.
 
-1. Log in to Okta as an administrator, go to Admin > Applications (menu) > Applications (item).
+1. Log in to Zenduty as an administrator. In another tab, Log into Okta as an administrator.
 
-2. Click the Add Application button.
+2. In Zenduty, click on your name in the top right corner, which will reveal a dropdown with your account's domain name. Copy your account domain name for later use.
 
-![](/img/Integrations/Okta/1.png)
+![](/img/Integrations/Okta/11.png)
 
-3. Click Create New App under the "Can't find an app?" heading on the left.
+3. Go to your Okta admin dashboard. Click on "Applications". Click on "Add Application" and search for "Zenduty" in the Okta application marketplace. Click on "Add" next to Zenduty. 
 
-![](/img/Integrations/Okta/2.png)
+![](/img/Integrations/Okta/12.png)
 
-4. Select SAML 2.0 as the sign on method and click Create.
+4. Click on the Zenduty application in Okta. Click on the "Sign On" tab. Click on "Edit" in the "Settings" section.
 
-![](/img/Integrations/Okta/3.png)
+![](/img/Integrations/Okta/13.png)
 
-5. Enter Zenduty as the name of the new app. If you wish to upload a Zenduty logo select an image, download the logo file below and click on the Upload Logo button, then Next.
+5. In the "Default Relay State" box, enter the Zenduty account subdomain you copied in Step 2. FOr Application username format, Select "Email".
 
-![](/img/Integrations/Okta/ZDOkta.png)
+6. Click on "View Setup Instructions". This will open a new tab which will contain three values which you need to temporarily copy in a text editor for the next step - SAML endpoint, SAML Entity ID and Certificate.
 
-![](/img/Integrations/Okta/4.png)
+![](/img/Integrations/Okta/14.png)
 
-6. Copy the URL "https://www.zenduty.com/api/account/saml/acs/" and paste it into the "Single sign on URL " input box. Copy the URL "https://www.zenduty.com" and paste it into the "Audience URI (SP Entity ID)" input box. Keep the "Default RelayState" box as blank. For Name Id format, choose "EmailAddress". For "Application username", choose "Okta username".
+![](/img/Integrations/Okta/15.png)
 
-![](/img/Integrations/Okta/5.png)
+7. Assign users to the Zenduty application on Okta.
 
-7. On the same screen, but a little bit further down the page, you'll see the ATTRIBUTE STATEMENTS (OPTIONAL) section. You want to add three attributes there:
+8. Go back to the Zenduty tab. On the top right corner, click on the drowdown under your name and click on "Account". On the left panel, click on "Single Sign On"
 
-Name: " first_name", Name format: "Unspecified", Value: " user.firstName"
-Name: " last_name", Name format: "Unspecified", Value: " user.lastName"
-Name: " email", Name format: "Unspecified", Value: "user.email". 
+9. In the SSO form, select "Okta SSO" under "Select SSO Provider"
 
-Click the Next button to save the app settings.
+10. In "SAML endpoint" input, paste the "SAML endpoint" you saved from Step 6. In "SAML Entity ID" input, paste "SAML Entity ID" you saved from Step 6. In the "Certificate" input, paste the Certificate copied from step 6.
 
-![](/img/Integrations/Okta/6.png)
+![](/img/Integrations/Okta/16.png)
 
-8. On the final set up screen pick I'm an Okta customer adding an internal app to answer the question "Are you a customer or partner?", and click Finish.
+11. Click on "Save Integration" to complete your SSO setup!
 
-![](/img/Integrations/Okta/7.png)
+12. To test SP-initiated SSO, logout of your Zenduty account and click on Login. Click on "Login with your identity provider". Enter your account domain name and click on "Continue". Authenticate your Okta credentials to login into Zenduty.
 
-9. The app is now created, but none of your Users can access it yet. Assign them to the app either individually via the People tab.
-
-10. Navigate to the Sign On tab. Open a text editor. Click the View Setup Instructions tab and from the new page that opens, copy the "Identity Provider Single Sign-On URL", "Identity Provider Issuer" and the X.509 Certificate values into the text editor. You will need these to complete step.
-
-![](/img/Integrations/Okta/8.png)
-
-![](/img/Integrations/Okta/9.png)
-
-11. Log out from Okta (you might want to test with a non-admin user in a moment).
-
-12. Log into your Zenduty account as the owner. On the top right corner, click on the drowdown under your name and click on "Account". On the left panel, click on "Single Sign On"
-
-13. In the SSO form, select "Okta SSO" under "Select SSO Provider"
-
-14. In "SAML endpoint" input, paste the "Identity Provider Single Sign-On URL" you saved from Step 10. In "SAML Entity ID" input, paste "Identity Provider Issuer" you saved from Step 10. In the "Certificate" input, paste the X.509 Certificate copied from step 10.
-
-15. Click on "Save Integration" to complete your SSO setup!
-
-16. Logout of your Zenduty account and click on Login. Click on "Login with your identity provider". Enter your account domain name and click on "Continue". Authenticate your Okta credentials. 
-
-17. You are now logged in with Okta SSO!
+13. To test iDP-initiated SSO, logout of your Zenduty account. Login to your Okta account and from the application list, click on Zenduty. You will be logged into Zenduty.
