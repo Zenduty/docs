@@ -75,17 +75,8 @@
 <p><img src="/img/Integrations/Grafana/Webhook.png" alt=""></p>
 <pre><code class="hljs">    IMPORTANT WARNING - Sometimes Grafana may<span class="hljs-built_in"> not </span>fire an alert<span class="hljs-built_in"> if </span>the <span class="hljs-string">"Include Image"</span> parameter is selected. First<span class="hljs-built_in"> check </span>if the alert is working with the parameter<span class="hljs-built_in"> not </span>selected,<span class="hljs-built_in"> and </span>then try selecting the parameter<span class="hljs-built_in"> and </span>see<span class="hljs-built_in"> if </span>the alerts are fired to Zenduty.
 </code></pre>
-<ol start="7">
-<li><p>Next, from the left side menu, select Configuration-&gt;Data Sources. Select the data source you want to configure.</p></li>
-<li><p>As an example, we will select PostgreSQL. Fill in the form as shown below:</p></li>
-</ol>
-<p><img src="/img/Integrations/Grafana/PostgreSql.png" alt=""></p>
-<ol start="9">
-<li>Finally, go to Dashboards-&gt;Home. Click on &quot;New Dashboard Copy&quot;, and edit panel title.</li>
-</ol>
-<p><img src="/img/Integrations/Grafana/EditPanel.png" alt=""></p>
 <ol start="10">
-<li>Fill in the graph details as per your use case. An example is given below.</li>
+<li>Go to your Grafana Dashboard and click on the &quot;Alerts&quot; tab. Click on &quot;Create alert&quot;. In the alert configuration under &quot;Send to&quot;, add Zenduty as a notification method. Add a relevant message for the aalert and save the graph.</li>
 </ol>
 <p><img src="/img/Integrations/Grafana/EditGraph.png" alt=""></p>
 <ol start="11">
