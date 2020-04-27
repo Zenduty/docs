@@ -170,6 +170,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["Stackdriver"]
+      },
+      {
+        "type": "subcategory",
         "ids": ["Grafana"]
       },
       {
