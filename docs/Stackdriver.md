@@ -1,6 +1,6 @@
 ---
 id: Stackdriver
-title: Google Stackdriver - Google Cloud Platform
+title: Google Cloud Platform - Operations
 ---
 Google Stackdriver is a monitoring service that provides IT teams with performance data about applications and virtual machines running on the Google Cloud Platform and Amazon Web Services public cloud. To integrate Google Staackdriver with Zenduty, complete the following steps:
 
