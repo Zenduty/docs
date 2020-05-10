@@ -2,7 +2,7 @@
 id: AlertRules
 title: Alert Rules
 ---
-Alert rules let you create complex conditions for an integration, by matching fields like alert_type, summary, description of the alert, and payload sent by the alert.Alert Rules also lets you take custom actions like assign a custom EP or a user to an integration. Custom actions include: 
+Alert rules let you create complex conditions for an integration, by matching fields like alert_type, summary, description of the alert, and payload sent by the alert.Alert Rules also lets you take custom actions like assign a custom EP or a user to an integrations. Custom actions include: 
 1. Change alert type
 2. Change incident urgency
 3. Add note to incident
