@@ -23,7 +23,7 @@ To integrate Site24x7 with Zenduty, complete the following steps:
 
 ![](/img/Integrations/Site24x7/1.png)
 
-6. Enter the name of the integration, paste the copied link in "Hook URL" and set the "HTTP method" as "POST" and click on "Save".
+6. Enter the name of the integration, paste the copied link in "Hook URL" and set the "HTTP method" as "POST", select "Post as JSON" and click on "Save".
 
 ![](/img/Integrations/Site24x7/2.png)
 
