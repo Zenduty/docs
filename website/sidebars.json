@@ -16,7 +16,12 @@
       {
         "type": "subcategory",
         "ids": ["ContactNotification"]
-      }
+      },
+      {
+        "type": "subcategory",
+        "ids": ["Whitelisting"]
+      },
+      
     ],
     "Escalation and Schedules": [
       {
@@ -166,7 +171,7 @@
       },
       {
         "type": "subcategory",
-        "ids": ["Github"]
+        "ids": [" "]
       },
       {
         "type": "subcategory",

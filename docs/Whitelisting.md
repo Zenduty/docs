@@ -1,6 +1,6 @@
 ---
 id: Whitelisting
-title: Whitelilsting phone numbers
+title: White-listing for DND
 ---
 
 # Phone/SMS alert white-listing
