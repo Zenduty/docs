@@ -1,439 +1,439 @@
-{
-  "Navigation": {
-  	"Getting Started": [
-      {
-        "type": "subcategory",
-        "ids": ["Introduction"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Teams"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Users"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["ContactNotification"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Whitelisting"]
-      },
-      
-    ],
-    "Escalation and Schedules": [
-      {
-        "type": "subcategory",
-        "ids":["EscalationPolicies"]
-      },
-      {
-        "type": "subcategory",
-        "ids":["Schedules"]
-      },
-      {
-        "type": "subcategory",
-        "ids":["SchedulesEx"]
-      }
-    ],
-    "Services and Integrations": [
-      {
-        "type": "subcategory",
-        "ids": ["Services"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Integrations"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Context"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["OutgoingIntegrations"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["AlertRules"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["MaintenanceWindows"]
-      }
-      
-    ],
-    "Incidents": [
-      {
-        "type": "subcategory",
-        "ids": ["Incidents"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Responders"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["IncidentRoles"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["IncidentPriority"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["IncidentSLA"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["TaskTemplates"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Search"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["IncidentTags"]
-      }   
-    ],
-    "SAML-Single Sign On": ["GoogleSSO", "OktaSSO"],
-    "Analytics": ["Analytics"],
-    "Integrations":[
-      {
-        "type": "subcategory",
-        "ids": ["Email"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["AppBeat"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["AppOptics"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Atatus"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Cloudwatch"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Bitbucket"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Bugsnag"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Checkly"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Conf"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Fabric"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Datadog"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Dynamics365"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Dynatrace"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["FirebaseCrashlytics"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Freshdesk"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["FreshdeskTwoWay"]
-      },      
-      {
-        "type": "subcategory",
-        "ids": ["GhostInspector"]
-      },
-      {
-        "type": "subcategory",
-        "ids": [" "]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Stackdriver"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Grafana"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Graylog"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Healthchecks"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["HetrixTools"]
-      },
+  {
+    "Navigation": {
+    	"Getting Started": [
+        {
+          "type": "subcategory",
+          "ids": ["Introduction"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Teams"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Users"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["ContactNotification"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Whitelisting"]
+        }
+        
+      ],
+      "Escalation and Schedules": [
+        {
+          "type": "subcategory",
+          "ids":["EscalationPolicies"]
+        },
+        {
+          "type": "subcategory",
+          "ids":["Schedules"]
+        },
+        {
+          "type": "subcategory",
+          "ids":["SchedulesEx"]
+        }
+      ],
+      "Services and Integrations": [
+        {
+          "type": "subcategory",
+          "ids": ["Services"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Integrations"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Context"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["OutgoingIntegrations"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["AlertRules"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["MaintenanceWindows"]
+        }
+        
+      ],
+      "Incidents": [
+        {
+          "type": "subcategory",
+          "ids": ["Incidents"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Responders"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["IncidentRoles"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["IncidentPriority"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["IncidentSLA"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["TaskTemplates"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Search"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["IncidentTags"]
+        }   
+      ],
+      "SAML-Single Sign On": ["GoogleSSO", "OktaSSO"],
+      "Analytics": ["Analytics"],
+      "Integrations":[
+        {
+          "type": "subcategory",
+          "ids": ["Email"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["AppBeat"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["AppOptics"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Atatus"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Cloudwatch"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Bitbucket"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Bugsnag"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Checkly"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Conf"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Fabric"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Datadog"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Dynamics365"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Dynatrace"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["FirebaseCrashlytics"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Freshdesk"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["FreshdeskTwoWay"]
+        },      
+        {
+          "type": "subcategory",
+          "ids": ["GhostInspector"]
+        },
+        {
+          "type": "subcategory",
+          "ids": [" "]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Stackdriver"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Grafana"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Graylog"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Healthchecks"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["HetrixTools"]
+        },
 
-      {
-        "type": "subcategory",
-        "ids": ["Honeybadger"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["HostedGraphite"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["HTTPHealthcheck"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Humio"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Icinga2"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Idera"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["IOPipe"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Jenkins"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Jira"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Kayako"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Librato"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Lightstep"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["LogDNA"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Logenteries"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Loggly"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Logzio"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Mackerel"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Metricly"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["MicrosoftAzure"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["MicrosoftTeams"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Monitis"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Nagios"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["NewRelic"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["NodePing"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["OpsDash"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Panopta"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Papertrail"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Pingdom"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Pingometer"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Prometheus"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Raygun"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Rollbar"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Runscope"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Scout"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Sematext"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Sentry"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["ServerDensity"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Slack"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["SlackIncidentCommand"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["SlackOutgoingWebhook"]
-      },      
-      {
-        "type": "subcategory",
-        "ids": ["SignalFX"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Site24x7"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Splunk"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["SplunkLegacy"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["StatHat"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["StatusCake"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["StatusPage"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["StatusPage2"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Sumologic"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Sysdig"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["ThousandEyes"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Uptime"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["UptimeRobot"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Uptrends"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["WaveFront"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Wormly"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Zabbix"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Zendesk"]
-      },
-      {
-        "type": "subcategory",
-        "ids": ["Zendesk2Way"]
-      },      
-      {
-        "type": "subcategory",
-        "ids": ["Zoom"]
-      }
-    ]
+        {
+          "type": "subcategory",
+          "ids": ["Honeybadger"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["HostedGraphite"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["HTTPHealthcheck"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Humio"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Icinga2"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Idera"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["IOPipe"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Jenkins"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Jira"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Kayako"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Librato"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Lightstep"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["LogDNA"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Logenteries"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Loggly"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Logzio"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Mackerel"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Metricly"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["MicrosoftAzure"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["MicrosoftTeams"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Monitis"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Nagios"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["NewRelic"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["NodePing"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["OpsDash"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Panopta"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Papertrail"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Pingdom"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Pingometer"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Prometheus"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Raygun"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Rollbar"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Runscope"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Scout"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Sematext"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Sentry"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["ServerDensity"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Slack"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["SlackIncidentCommand"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["SlackOutgoingWebhook"]
+        },      
+        {
+          "type": "subcategory",
+          "ids": ["SignalFX"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Site24x7"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Splunk"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["SplunkLegacy"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["StatHat"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["StatusCake"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["StatusPage"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["StatusPage2"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Sumologic"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Sysdig"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["ThousandEyes"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Uptime"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["UptimeRobot"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Uptrends"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["WaveFront"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Wormly"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Zabbix"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Zendesk"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["Zendesk2Way"]
+        },      
+        {
+          "type": "subcategory",
+          "ids": ["Zoom"]
+        }
+      ]
+    }
   }
-}

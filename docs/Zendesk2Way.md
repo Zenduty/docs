@@ -2,6 +2,7 @@
 id: Zendesk2Way
 title: Zendesk Outgoing(two way)
 ---
+
 Zendesk is a customer service software and support ticketing system. To integrate Zendesk with Zenduty Outgoing two-way integration, complete the following steps:
 
 ## In Zenduty: 
