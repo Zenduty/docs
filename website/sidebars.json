@@ -428,6 +428,10 @@
       },
       {
         "type": "subcategory",
+        "ids": ["Zendesk2Way"]
+      },      
+      {
+        "type": "subcategory",
         "ids": ["Zoom"]
       }
     ]
