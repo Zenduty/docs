@@ -1,5 +1,5 @@
 ---
-id: Zendesk2Way
+id: ZendeskTwoWay
 title: Zendesk Outgoing(two way)
 ---
 
