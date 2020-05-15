@@ -71,8 +71,10 @@
 <ol start="5">
 <li><p>Clone <a href="https://github.com/Zenduty/zabbix-zenduty-script.git">this Repository</a></p>
 <p>git clone <a href="https://github.com/Zenduty/zabbix-zenduty-script.git">https://github.com/Zenduty/zabbix-zenduty-script.git</a></p></li>
-<li><p>Copy the Script file(zabbix_zenduty_integration.sh) and paste it into Zabbix server's AlertScriptsPath. You can see your AlertScriptsPath path from Zabbix server configuration file.</p></li>
+<li><p>Copy the Script file(zabbix_zenduty_integration.sh) and paste it into Zabbix server's AlertScriptsPath. You can see your AlertScriptsPath path from Zabbix server configuration file. Give executable permission to this file for the Zabbix user.</p></li>
 </ol>
+<pre><code class="hljs">chmod <span class="hljs-number">555</span> zabbix_zenduty_integration.sh
+</code></pre>
 <p><img src="/img/Integrations/Zabbix/1.png" alt=""></p>
 <p><strong>Create the Zenduty media type:</strong></p>
 <ol start="7">
