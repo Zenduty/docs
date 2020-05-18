@@ -26,17 +26,7 @@ Grafana allows you to query, visualize, alert on and understand your metrics no 
     IMPORTANT WARNING - Sometimes Grafana may not fire an alert if the "Include Image" parameter is selected. First check if the alert is working with the parameter not selected, and then try selecting the parameter and see if the alerts are fired to Zenduty.
 ```
 
-7. Next, from the left side menu, select Configuration->Data Sources. Select the data source you want to configure.
-
-8. As an example, we will select PostgreSQL. Fill in the form as shown below:
-
-![](/img/Integrations/Grafana/PostgreSql.png)
-
-9. Finally, go to Dashboards->Home. Click on "New Dashboard Copy", and edit panel title. 
-
-![](/img/Integrations/Grafana/EditPanel.png)
-
-10. Fill in the graph details as per your use case. An example is given below. 
+10. Go to your Grafana Dashboard and click on the "Alerts" tab. Click on "Create alert". In the alert configuration under "Send to", add Zenduty as a notification method. Add a relevant message for the aalert and save the graph.
 
 ![](/img/Integrations/Grafana/EditGraph.png)
 
