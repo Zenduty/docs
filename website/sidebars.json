@@ -293,8 +293,7 @@
         {
           "type": "subcategory",
           "ids": ["OpsDash"]
-        },
-        ,
+        },        
         {
           "type": "subcategory",
           "ids": ["OutgoingWebhooks"]
