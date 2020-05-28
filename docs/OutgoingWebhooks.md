@@ -1,6 +1,6 @@
 ---
 id: OutgoingWebhooks
-title: Outgoind Webhook
+title: Outgoing Webhook
 ---
 
 Zenduty supports webhooks to easily integrate external applications.
