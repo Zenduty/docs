@@ -56,8 +56,7 @@ The payload sent by Zenduty will look like the payload below:
                 "sla": "77bac19adeab4166bd9bd4dfe6301924",
                 "collation_time": 0,
                 "collation": 0
-            },
-            "priority": 1,
+            },            
             "urgency": 1,
             "merged_with": null,
             "assigned_to": {
