@@ -21,7 +21,7 @@
           "type": "subcategory",
           "ids": ["Whitelisting"]
         }
-        
+
       ],
       "Escalation and Schedules": [
         {
@@ -62,7 +62,7 @@
           "type": "subcategory",
           "ids": ["MaintenanceWindows"]
         }
-        
+
       ],
       "Incidents": [
         {
@@ -96,7 +96,7 @@
         {
           "type": "subcategory",
           "ids": ["IncidentTags"]
-        }   
+        }
       ],
       "SAML-Single Sign On": ["GoogleSSO", "OktaSSO"],
       "Analytics": ["Analytics"],
@@ -164,7 +164,7 @@
         {
           "type": "subcategory",
           "ids": ["FreshdeskTwoWay"]
-        },      
+        },
         {
           "type": "subcategory",
           "ids": ["GhostInspector"]
@@ -349,6 +349,10 @@
         },
         {
           "type": "subcategory",
+          "ids": ["ServiceNow"]
+        },
+        {
+          "type": "subcategory",
           "ids": ["Slack"]
         },
         {
@@ -358,7 +362,7 @@
         {
           "type": "subcategory",
           "ids": ["SlackOutgoingWebhook"]
-        },      
+        },
         {
           "type": "subcategory",
           "ids": ["SignalFX"]
@@ -434,7 +438,7 @@
         {
           "type": "subcategory",
           "ids": ["ZendeskTwoWay"]
-        },      
+        },
         {
           "type": "subcategory",
           "ids": ["Zoom"]
