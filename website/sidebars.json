@@ -294,6 +294,11 @@
           "type": "subcategory",
           "ids": ["OpsDash"]
         },
+        ,
+        {
+          "type": "subcategory",
+          "ids": ["OutgoingWebhooks"]
+        },
         {
           "type": "subcategory",
           "ids": ["Panopta"]
