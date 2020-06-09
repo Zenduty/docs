@@ -25,6 +25,10 @@ A list of all the Escalation Policies in a team will be visible to you.
 
 	* How each person is notified depends on the [notification rules](Users.md) they or their team managers/admins have set up.
 
+4. To put your escalation chain in a loop, change the **Repeat Escalation Cycle** value and add the number of time you'd like to run the escalation chain in a loop.
+
+5. By default, Zenduty moves to the next escalation rule if the current rule(which only has a single on-call schedule) has no user on-call. To stop Zenduty from automatically moving to the next rule, unselect/deactivate the **Move to next rule if no user found in current rule** slider option.
+
 ## Editing an Escalation Policy:
 
 Simply click on the "View" button next to the policy you want to edit. Edit the form that shows up, and Save
