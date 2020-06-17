@@ -49,6 +49,13 @@ Click "Create" to Save
 
 Rotation layers are cumulative. If the time frames for shifts overlap, all the layerss apply, hence there may be multiple participants assigned to be on-call at the same time.
 
+### Schedule override
+
+For times when the on-call user is unavailable for their on call duties for a specified duration of time, you can "override" the schedule and add a user that is avaiable to fill in for the unavailable user. 
+
+![](/img/sc_5.png)
+
+
 ### Nobody is On-Call
 It is possible to have a schedule with gaps where no one is on-call during certain times. If no one is on-call at a certain escalation level, the incident will immediately escalate to the next level of the escalation policy. If no one is on-call on the entire escalation policy, an incident will not be assigned.
 
