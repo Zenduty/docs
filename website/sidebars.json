@@ -96,7 +96,12 @@
         {
           "type": "subcategory",
           "ids": ["IncidentTags"]
+        },
+        {
+          "type": "subcategory",
+          "ids": ["StakeholderComms"]
         }
+        
       ],
       "SAML-Single Sign On": ["GoogleSSO", "OktaSSO"],
       "Analytics": ["Analytics"],
