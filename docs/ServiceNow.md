@@ -46,7 +46,7 @@ To integrate ServiceNow with Zenduty, complete the following steps:
 
 10. Update the Changes and copy the generated Code to be added to ServiceNow Business Rules.
 
-## In Jira:
+## In ServiceNow:
 
 11. Log in to your ServiceNow domain with your ServiceNow account.
 >Make sure you have permissions to create a _Business rule_.
